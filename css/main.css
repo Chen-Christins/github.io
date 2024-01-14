@@ -628,7 +628,7 @@ pre figcaption a:hover {
 }
 pre,
 code {
-  font-family: JetBrains Mono, Fira Mono, JetBrains Mono, Menlo, monospace, "Noto Serif SC", "PingFang SC", "Microsoft YaHei";
+  font-family: Fira Mono, Fira Mono, JetBrains Mono, Menlo, monospace, "Noto Serif SC", "PingFang SC", "Microsoft YaHei";
 }
 code {
   border-radius: 3px;
@@ -2598,7 +2598,7 @@ header.header {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #ffff69;
+  background: #d2132d;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
