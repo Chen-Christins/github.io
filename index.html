@@ -318,7 +318,7 @@ mjx-container[display="true"] + br {
       <span class="post-meta-item-text">发表于</span>
       
 
-      <time title="创建时间：2024-01-16 00:54:47 / 修改时间：21:08:50" itemprop="dateCreated datePublished" datetime="2024-01-16T00:54:47+08:00">2024-01-16</time>
+      <time title="创建时间：2024-01-16 00:54:47 / 修改时间：21:12:23" itemprop="dateCreated datePublished" datetime="2024-01-16T00:54:47+08:00">2024-01-16</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -380,10 +380,12 @@ class="math inline">\(int\)</span></li>
 <ul>
 <li>首先可以发现，如果这种情况，一定平局,黑色选中区域为它们占据的单元格</li>
 </ul>
-<center>
-<p><img
+<figure>
+<img
 src="https://gitee.com/Vesnt-git/pic/raw/master/Codeforces/1921/%E6%83%85%E5%86%B51.png"
-alt="情况1" /></cneter></p>
+alt="情况1" />
+<figcaption aria-hidden="true">情况1</figcaption>
+</figure>
 <ul>
 <li>还有两种是别距离为奇数和距离为偶数的情况
 <ul>
@@ -395,8 +397,12 @@ alt="情况1" /></cneter></p>
 逼到墙边就获胜，否则平局</li>
 </ul></li>
 </ul>
-<p><img
-src="https://gitee.com/Vesnt-git/pic/raw/master/Codeforces/1921/condition2.png" /></p>
+<figure>
+<img
+src="https://gitee.com/Vesnt-git/pic/raw/master/Codeforces/1921/condition2.png"
+alt="情况2" />
+<figcaption aria-hidden="true">情况2</figcaption>
+</figure>
 <figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> i64 = <span class="type">long</span> <span class="type">long</span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">solve</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="type">int</span> h, w, xa, ya, xb, yb;</span><br><span class="line">    std::cin &gt;&gt; h &gt;&gt; w &gt;&gt; xa &gt;&gt; ya &gt;&gt; xb &gt;&gt; yb;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> (xa &gt;= xb) &#123;</span><br><span class="line">        std::cout &lt;&lt; <span class="string">&quot;Draw\n&quot;</span>;</span><br><span class="line">    &#125; <span class="keyword">else</span> <span class="keyword">if</span> ((xb - xa) % <span class="number">2</span> == <span class="number">1</span>) &#123;</span><br><span class="line">        <span class="type">int</span> t = (xb - xa + <span class="number">1</span>) / <span class="number">2</span>; <span class="comment">// 相遇时间</span></span><br><span class="line">        <span class="keyword">if</span> (<span class="built_in">abs</span>(ya - yb) &lt;= <span class="number">1</span> || yb &lt; ya &amp;&amp; ya - <span class="number">1</span> &lt;= t || yb &gt; ya &amp;&amp; w - ya &lt;= t) &#123;</span><br><span class="line">            std::cout &lt;&lt; <span class="string">&quot;Alice\n&quot;</span>;</span><br><span class="line">        &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">            std::cout &lt;&lt; <span class="string">&quot;Draw\n&quot;</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">        <span class="type">int</span> t = (xb - xa) / <span class="number">2</span>;</span><br><span class="line">        <span class="keyword">if</span> (ya == yb || ya &lt; yb &amp;&amp; yb - <span class="number">1</span> &lt;= t || ya &gt; yb &amp;&amp; w - yb &lt;= t) &#123;</span><br><span class="line">            std::cout &lt;&lt; <span class="string">&quot;Bob\n&quot;</span>;</span><br><span class="line">        &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">            std::cout &lt;&lt; <span class="string">&quot;Draw\n&quot;</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">signed</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    std::ios::<span class="built_in">sync_with_stdio</span>(<span class="literal">false</span>);</span><br><span class="line">    std::cin.<span class="built_in">tie</span>(<span class="literal">nullptr</span>);</span><br><span class="line"></span><br><span class="line">    <span class="type">int</span> t;</span><br><span class="line">    std::cin &gt;&gt; t;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">while</span> (t--) &#123;</span><br><span class="line">        <span class="built_in">solve</span>();</span><br><span class="line">    &#125;    </span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
       
