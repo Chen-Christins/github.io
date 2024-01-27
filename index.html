@@ -201,7 +201,7 @@ mjx-container[display="true"] + br {
 
 
 <nav class="site-nav">
-  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/vsent/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/vsent/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-tags"><a href="/vsent/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">7</span></a></li><li class="menu-item menu-item-categories"><a href="/vsent/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类<span class="badge">3</span></a></li><li class="menu-item menu-item-archives"><a href="/vsent/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">17</span></a></li><li class="menu-item menu-item-schedule"><a href="/vsent/schedule/" rel="section"><i class="fa fa-calendar fa-fw"></i>日程表</a></li><li class="menu-item menu-item-sitemap"><a href="/vsent/sitemap.xml" rel="section"><i class="fa fa-sitemap fa-fw"></i>站点地图</a></li>
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/vsent/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/vsent/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-tags"><a href="/vsent/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">7</span></a></li><li class="menu-item menu-item-categories"><a href="/vsent/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类<span class="badge">3</span></a></li><li class="menu-item menu-item-archives"><a href="/vsent/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">19</span></a></li><li class="menu-item menu-item-schedule"><a href="/vsent/schedule/" rel="section"><i class="fa fa-calendar fa-fw"></i>日程表</a></li><li class="menu-item menu-item-sitemap"><a href="/vsent/sitemap.xml" rel="section"><i class="fa fa-sitemap fa-fw"></i>站点地图</a></li>
   </ul>
 </nav>
 
@@ -240,7 +240,7 @@ mjx-container[display="true"] + br {
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/vsent/archives/">
-          <span class="site-state-item-count">17</span>
+          <span class="site-state-item-count">19</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -280,6 +280,223 @@ mjx-container[display="true"] + br {
     </div>
 
     <div class="main-inner index posts-expand">
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://vesnt-git.gitee.io/vsent/2024/01/27/%E7%AC%AC-4-%E5%9C%BA-%E5%B0%8F%E7%99%BD%E5%85%A5%E9%97%A8%E8%B5%9B/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://cdn.acwing.com/media/user/profile/photo/246040_lg_da22c80491.jpg">
+      <meta itemprop="name" content="chen">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Chen's Blog">
+      <meta itemprop="description" content="Just do it !!!">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | Chen's Blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/vsent/2024/01/27/%E7%AC%AC-4-%E5%9C%BA-%E5%B0%8F%E7%99%BD%E5%85%A5%E9%97%A8%E8%B5%9B/" class="post-title-link" itemprop="url">第 4 场 小白入门赛</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2024-01-27 20:58:13 / 修改时间：22:20:15" itemprop="dateCreated datePublished" datetime="2024-01-27T20:58:13+08:00">2024-01-27</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/vsent/categories/%E9%A2%98%E8%A7%A3/" itemprop="url" rel="index"><span itemprop="name">题解</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h2 id="a.-美丽的2024">A. 美丽的2024</h2>
+<p>思路：</p>
+<ul>
+<li>直接运用 __builtin_popcount() 这个库函数可以直接得到一个十进制数转
+<span class="math inline">\(2\)</span> 进制中 <span
+class="math inline">\(1\)</span> 的个数</li>
+</ul>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span> </span></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> i64 = <span class="type">long</span> <span class="type">long</span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">signed</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    std::ios::<span class="built_in">sync_with_stdio</span>(<span class="literal">false</span>);</span><br><span class="line">    std::cin.<span class="built_in">tie</span>(<span class="literal">nullptr</span>);</span><br><span class="line"></span><br><span class="line">    std::cout &lt;&lt; __builtin_popcount(<span class="number">2024</span>) &lt;&lt; <span class="string">&quot;\n&quot;</span>;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="b.-自助餐">B. 自助餐</h2>
+<p>思路：</p>
+<ul>
+<li>打表即可</li>
+</ul>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span> </span></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> i64 = <span class="type">long</span> <span class="type">long</span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">signed</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    std::ios::<span class="built_in">sync_with_stdio</span>(<span class="literal">false</span>);</span><br><span class="line">    std::cin.<span class="built_in">tie</span>(<span class="literal">nullptr</span>);</span><br><span class="line"></span><br><span class="line">    std::unordered_map&lt;std::string, <span class="type">int</span>&gt; h&#123;&#123;<span class="string">&quot;yuanxing&quot;</span>, <span class="number">1</span>&#125;, &#123;<span class="string">&quot;zhengfangxing&quot;</span>, <span class="number">2</span>&#125;,</span><br><span class="line">     &#123;<span class="string">&quot;changfangxing&quot;</span>, <span class="number">3</span>&#125;, &#123;<span class="string">&quot;sanjiaoxing&quot;</span>, <span class="number">4</span>&#125;, &#123;<span class="string">&quot;tuoyuanxing&quot;</span>, <span class="number">5</span>&#125;, &#123;<span class="string">&quot;liubianxing&quot;</span>, <span class="number">6</span>&#125;&#125;;</span><br><span class="line"></span><br><span class="line">    <span class="type">int</span> n;</span><br><span class="line">    std::cin &gt;&gt; n;</span><br><span class="line"></span><br><span class="line">    <span class="type">int</span> ans = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; n; i++) &#123;</span><br><span class="line">        std::string s;</span><br><span class="line">        std::cin &gt;&gt; s;</span><br><span class="line">        <span class="keyword">if</span> (h.<span class="built_in">count</span>(s)) &#123;</span><br><span class="line">            ans += h[s];</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    std::cout &lt;&lt; ans &lt;&lt; <span class="string">&quot;\n&quot;</span>;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="c.-玩游戏">C. 玩游戏</h2>
+<p>思路：</p>
+<ul>
+<li><span class="math inline">\(A\)</span>
+的必胜态为石子个数为奇数的情况</li>
+<li><span class="math inline">\(B\)</span>
+的必胜态为石子个数为偶数的情况</li>
+<li>无论怎么分，只要石子的个数为奇数，那么 <span
+class="math inline">\(A\)</span>
+一定可以拿到最后一个，反之，偶数的情况， <span
+class="math inline">\(B\)</span> 一定可以拿最后一个</li>
+</ul>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span> </span></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> i64 = <span class="type">long</span> <span class="type">long</span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">signed</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    std::ios::<span class="built_in">sync_with_stdio</span>(<span class="literal">false</span>);</span><br><span class="line">    std::cin.<span class="built_in">tie</span>(<span class="literal">nullptr</span>);</span><br><span class="line"></span><br><span class="line">    <span class="type">int</span> n;</span><br><span class="line">    std::cin &gt;&gt; n;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> (n &amp; <span class="number">1</span>) &#123;</span><br><span class="line">        std::cout &lt;&lt; <span class="string">&quot;A\n&quot;</span>;</span><br><span class="line">    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">        std::cout &lt;&lt; <span class="string">&quot;B\n&quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="d.-乘飞机">D. 乘飞机</h2>
+<p>思路：</p>
+<ul>
+<li>只要在 <span class="math inline">\([l, r]\)</span>
+这个区间中，那么一定最多只会出现 <span
+class="math inline">\(100\)</span> 个数相差大于 <span
+class="math inline">\(365\)</span> ，只要这 <span
+class="math inline">\(100\)</span>
+个数以外的其他数，一定是满足条件的</li>
+<li>所以暴力枚举即可</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">check</span>(<span class="params">ages, l, r</span>):</span><br><span class="line">    <span class="comment"># 对给定区间内的年龄进行排序</span></span><br><span class="line">    sorted_ages = <span class="built_in">sorted</span>(ages[l-<span class="number">1</span>:<span class="built_in">min</span>(r, l + <span class="number">100</span>)])</span><br><span class="line"></span><br><span class="line">    left = <span class="number">0</span></span><br><span class="line">    right = <span class="number">1</span></span><br><span class="line">    <span class="keyword">while</span> right &lt; <span class="built_in">len</span>(sorted_ages):</span><br><span class="line">        <span class="keyword">if</span> <span class="built_in">abs</span>(sorted_ages[right] - sorted_ages[left]) &lt;= <span class="number">365</span>:</span><br><span class="line">            <span class="keyword">return</span> <span class="string">&quot;YES&quot;</span></span><br><span class="line">        left += <span class="number">1</span></span><br><span class="line">        right += <span class="number">1</span></span><br><span class="line">    <span class="keyword">if</span> r &gt; l + <span class="number">100</span>:</span><br><span class="line">        <span class="keyword">return</span> <span class="string">&quot;YES&quot;</span></span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        <span class="keyword">return</span> <span class="string">&quot;NO&quot;</span></span><br><span class="line"></span><br><span class="line">n, q = <span class="built_in">map</span>(<span class="built_in">int</span>, <span class="built_in">input</span>().split())</span><br><span class="line">ages = <span class="built_in">list</span>(<span class="built_in">map</span>(<span class="built_in">int</span>, <span class="built_in">input</span>().split()))</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> _ <span class="keyword">in</span> <span class="built_in">range</span>(q):</span><br><span class="line">    l, r = <span class="built_in">map</span>(<span class="built_in">int</span>, <span class="built_in">input</span>().split())</span><br><span class="line">    <span class="built_in">print</span>(check(ages, l, r))</span><br></pre></td></tr></table></figure>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://vesnt-git.gitee.io/vsent/2024/01/27/Codeforces-Round-780-Div-3/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://cdn.acwing.com/media/user/profile/photo/246040_lg_da22c80491.jpg">
+      <meta itemprop="name" content="chen">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Chen's Blog">
+      <meta itemprop="description" content="Just do it !!!">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | Chen's Blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/vsent/2024/01/27/Codeforces-Round-780-Div-3/" class="post-title-link" itemprop="url">Codeforces Round 780 (Div. 3)</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2024-01-27 17:46:56 / 修改时间：22:35:21" itemprop="dateCreated datePublished" datetime="2024-01-27T17:46:56+08:00">2024-01-27</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/vsent/categories/%E9%A2%98%E8%A7%A3/" itemprop="url" rel="index"><span itemprop="name">题解</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h2 id="a.-vasya-and-coins">A. Vasya and Coins</h2>
+<p>思路：</p>
+<ul>
+<li>找 <span class="math inline">\(1\)</span> 到 <span
+class="math inline">\(a+b \times 2 + 1\)</span>
+中第一个没有出现过的数字即可</li>
+</ul>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> i64 = <span class="type">long</span> <span class="type">long</span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">solve</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="type">int</span> a, b;</span><br><span class="line">    std::cin &gt;&gt; a &gt;&gt; b;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> (a == <span class="number">0</span>) &#123;</span><br><span class="line">        std::cout &lt;&lt; <span class="number">1</span> &lt;&lt; <span class="string">&quot;\n&quot;</span>;</span><br><span class="line">        <span class="keyword">return</span> ;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    std::cout &lt;&lt; a + b * <span class="number">2</span> + <span class="number">1</span> &lt;&lt; <span class="string">&quot;\n&quot;</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">signed</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    std::ios::<span class="built_in">sync_with_stdio</span>(<span class="literal">false</span>);</span><br><span class="line">    std::cin.<span class="built_in">tie</span>(<span class="literal">nullptr</span>);</span><br><span class="line"></span><br><span class="line">    <span class="type">int</span> t;</span><br><span class="line">    std::cin &gt;&gt; t;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">while</span> (t--) &#123;</span><br><span class="line">        <span class="built_in">solve</span>();</span><br><span class="line">    &#125;    </span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="b.-vlad-and-candies">B. Vlad and Candies</h2>
+<p>思路：</p>
+<ul>
+<li>只要最大值和次大值之间的差大于 <span
+class="math inline">\(2\)</span> ，那么一定不行，为 <span
+class="math inline">\(1\)</span> 就特判一下</li>
+</ul>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> i64 = <span class="type">long</span> <span class="type">long</span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">solve</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="type">int</span> n;</span><br><span class="line">    std::cin &gt;&gt; n;</span><br><span class="line"></span><br><span class="line">    <span class="function">std::vector&lt;<span class="type">int</span>&gt; <span class="title">a</span><span class="params">(n)</span></span>;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; n; i++) &#123;</span><br><span class="line">        std::cin &gt;&gt; a[i];</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> (n == <span class="number">1</span>) &#123;</span><br><span class="line">        <span class="keyword">if</span> (a[<span class="number">0</span>] &gt; <span class="number">1</span>) &#123;</span><br><span class="line">            std::cout &lt;&lt; <span class="string">&quot;NO\n&quot;</span>;</span><br><span class="line">        &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">            std::cout &lt;&lt; <span class="string">&quot;YES\n&quot;</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> ;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    std:<span class="built_in">sort</span>(a.<span class="built_in">begin</span>(), a.<span class="built_in">end</span>());</span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> (a[n - <span class="number">1</span>] - a[n - <span class="number">2</span>] &gt; <span class="number">1</span>) &#123;</span><br><span class="line">        std::cout &lt;&lt; <span class="string">&quot;NO\n&quot;</span>;</span><br><span class="line">    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">        std::cout &lt;&lt; <span class="string">&quot;YES\n&quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">signed</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    std::ios::<span class="built_in">sync_with_stdio</span>(<span class="literal">false</span>);</span><br><span class="line">    std::cin.<span class="built_in">tie</span>(<span class="literal">nullptr</span>);</span><br><span class="line"></span><br><span class="line">    <span class="type">int</span> t;</span><br><span class="line">    std::cin &gt;&gt; t;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">while</span> (t--) &#123;</span><br><span class="line">        <span class="built_in">solve</span>();</span><br><span class="line">    &#125;    </span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="c.-get-an-even-string">C. Get an Even String</h2>
+<p>思路：</p>
+<ul>
+<li><span class="math inline">\(dp_{i,0}\)</span> 表示</li>
+</ul>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> i64 = <span class="type">long</span> <span class="type">long</span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">solve</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    std::string s;</span><br><span class="line">    std::cin &gt;&gt; s;</span><br><span class="line"></span><br><span class="line">    <span class="type">int</span> n = s.<span class="built_in">size</span>();</span><br><span class="line"></span><br><span class="line">    <span class="function">std::vector <span class="title">dp</span><span class="params">(n + <span class="number">1</span>, std::vector&lt;<span class="type">int</span>&gt;(<span class="number">2</span>, <span class="number">-1</span>))</span></span>;</span><br><span class="line">    dp[<span class="number">0</span>][<span class="number">0</span>] = <span class="number">0</span>;</span><br><span class="line">    <span class="type">int</span> pre = <span class="number">0</span>, ans = <span class="number">0</span>;</span><br><span class="line">    std::map&lt;<span class="type">char</span>, <span class="type">int</span>&gt; mp;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; n; i++) &#123;</span><br><span class="line">        dp[i + <span class="number">1</span>][<span class="number">1</span>] = pre + <span class="number">1</span>;</span><br><span class="line">        <span class="keyword">if</span> (mp.<span class="built_in">count</span>(s[i])) &#123;</span><br><span class="line">            dp[i + <span class="number">1</span>][<span class="number">0</span>] = dp[mp[s[i]]][<span class="number">1</span>] + <span class="number">1</span>;</span><br><span class="line">            pre = std::<span class="built_in">max</span>(pre, dp[i + <span class="number">1</span>][<span class="number">0</span>]);</span><br><span class="line">            ans = std::<span class="built_in">max</span>(ans, dp[i + <span class="number">1</span>][<span class="number">0</span>]);</span><br><span class="line">        &#125;</span><br><span class="line">        mp[s[i]] = i + <span class="number">1</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    std::cout &lt;&lt; n - ans &lt;&lt; <span class="string">&quot;\n&quot;</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">signed</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    std::ios::<span class="built_in">sync_with_stdio</span>(<span class="literal">false</span>);</span><br><span class="line">    std::cin.<span class="built_in">tie</span>(<span class="literal">nullptr</span>);</span><br><span class="line"></span><br><span class="line">    <span class="type">int</span> t;</span><br><span class="line">    std::cin &gt;&gt; t;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">while</span> (t--) &#123;</span><br><span class="line">        <span class="built_in">solve</span>();</span><br><span class="line">    &#125;    </span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
 
     
 
@@ -953,7 +1170,7 @@ alt="情况2" />
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://vesnt-git.gitee.io/vsent/2024/01/10/2024%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98(1.1%E2%80%942.1)/">
+    <link itemprop="mainEntityOfPage" href="https://vesnt-git.gitee.io/vsent/2024/01/10/2024%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98(1.1%E2%80%941.26)/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="https://cdn.acwing.com/media/user/profile/photo/246040_lg_da22c80491.jpg">
@@ -971,7 +1188,7 @@ alt="情况2" />
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/vsent/2024/01/10/2024%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98(1.1%E2%80%942.1)/" class="post-title-link" itemprop="url">2024每日一题(1.1至1.26)</a>
+          <a href="/vsent/2024/01/10/2024%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98(1.1%E2%80%941.26)/" class="post-title-link" itemprop="url">2024每日一题(1.1至1.26)</a>
         </h2>
 
         <div class="post-meta-container">
@@ -1481,397 +1698,6 @@ id="概述对于豆瓣电影网站的电影评论信息进行数据爬取以及�
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br><span class="line">139</span><br><span class="line">140</span><br><span class="line">141</span><br><span class="line">142</span><br><span class="line">143</span><br><span class="line">144</span><br><span class="line">145</span><br><span class="line">146</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 需要导入的库</span></span><br><span class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt</span><br><span class="line"><span class="keyword">import</span> matplotlib</span><br><span class="line"><span class="keyword">import</span> jieba</span><br><span class="line"><span class="keyword">import</span> jieba.analyse</span><br><span class="line"><span class="keyword">import</span> xlwt</span><br><span class="line"><span class="keyword">import</span> xlrd</span><br><span class="line"><span class="keyword">from</span> wordcloud <span class="keyword">import</span> WordCloud</span><br><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"><span class="keyword">from</span> collections <span class="keyword">import</span> Counter</span><br><span class="line"><span class="comment"># 设置字体 有的linux字体有问题</span></span><br><span class="line">matplotlib.rcParams[<span class="string">&#x27;font.sans-serif&#x27;</span>] = [<span class="string">&#x27;SimHei&#x27;</span>]</span><br><span class="line">matplotlib.rcParams[<span class="string">&#x27;axes.unicode_minus&#x27;</span>] = <span class="literal">False</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># 类似comment 为评论的一些数据 [  [&#x27;1&#x27;,&#x27;名称&#x27;，&#x27;star星&#x27;,&#x27;赞同数&#x27;,&#x27;评论内容&#x27;]  ,[&#x27;2&#x27;,&#x27;名称&#x27;，&#x27;star星&#x27;,&#x27;赞同数&#x27;,&#x27;评论内容&#x27;] ]元组</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">anylasescore</span>(<span class="params">comment</span>):</span><br><span class="line">    score = [<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>]  <span class="comment"># 分别对应0 1 2 3 4 5分出现的次数</span></span><br><span class="line">    count = <span class="number">0</span>  <span class="comment"># 评分总次数</span></span><br><span class="line">    <span class="keyword">for</span> va <span class="keyword">in</span> comment:  <span class="comment"># 遍历每条评论的数据  [&#x27;1&#x27;,&#x27;名称&#x27;，&#x27;star星&#x27;,&#x27;赞同数&#x27;,&#x27;评论内容&#x27;]</span></span><br><span class="line">        <span class="keyword">try</span>:</span><br><span class="line">            score[<span class="built_in">int</span>(va[<span class="number">2</span>])] += <span class="number">1</span>  <span class="comment"># 第3列 为star星 要强制转换成int格式</span></span><br><span class="line">            count += <span class="number">1</span></span><br><span class="line">        <span class="keyword">except</span> Exception <span class="keyword">as</span> e:</span><br><span class="line">            <span class="keyword">continue</span></span><br><span class="line">    <span class="built_in">print</span>(score)</span><br><span class="line">    label = <span class="string">&#x27;1分&#x27;</span>, <span class="string">&#x27;2分&#x27;</span>, <span class="string">&#x27;3分&#x27;</span>, <span class="string">&#x27;4分&#x27;</span>, <span class="string">&#x27;5分&#x27;</span></span><br><span class="line">    color = <span class="string">&#x27;blue&#x27;</span>, <span class="string">&#x27;orange&#x27;</span>, <span class="string">&#x27;yellow&#x27;</span>, <span class="string">&#x27;green&#x27;</span>, <span class="string">&#x27;red&#x27;</span>  <span class="comment"># 各类别颜色</span></span><br><span class="line">    size = [<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>]  <span class="comment"># 一个百分比数字 合起来为100</span></span><br><span class="line">    explode = [<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>]  <span class="comment"># explode :(每一块)离开中心距离；</span></span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">1</span>, <span class="number">5</span>):  <span class="comment"># 计算</span></span><br><span class="line">        size[i] = score[i] * <span class="number">100</span> / count</span><br><span class="line">        explode[i] = score[i] / count / <span class="number">10</span></span><br><span class="line">    pie = plt.pie(size, colors=color, explode=explode, labels=label, shadow=<span class="literal">True</span>, autopct=<span class="string">&#x27;%1.1f%%&#x27;</span>)</span><br><span class="line">    <span class="keyword">for</span> font <span class="keyword">in</span> pie[<span class="number">1</span>]:</span><br><span class="line">        font.set_size(<span class="number">8</span>)</span><br><span class="line">    <span class="keyword">for</span> digit <span class="keyword">in</span> pie[<span class="number">2</span>]:</span><br><span class="line">        digit.set_size(<span class="number">8</span>)</span><br><span class="line">    plt.axis(<span class="string">&#x27;equal&#x27;</span>)  <span class="comment"># 该行代码使饼图长宽相等</span></span><br><span class="line">    plt.title(<span class="string">u&#x27;各个评分占比&#x27;</span>, fontsize=<span class="number">12</span>)  <span class="comment"># 标题</span></span><br><span class="line">    plt.legend(loc=<span class="number">0</span>, bbox_to_anchor=(<span class="number">0.82</span>, <span class="number">1</span>))  <span class="comment"># 图例</span></span><br><span class="line">    <span class="comment"># 设置legend的字体大小</span></span><br><span class="line">    leg = plt.gca().get_legend()</span><br><span class="line">    ltext = leg.get_texts()</span><br><span class="line">    plt.setp(ltext, fontsize=<span class="number">6</span>)</span><br><span class="line">    plt.savefig(<span class="string">&quot;评分统计.png&quot;</span>)</span><br><span class="line">    <span class="comment"># 显示图</span></span><br><span class="line">    plt.show()</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">getzhifang</span>(<span class="params"><span class="built_in">map</span></span>):  <span class="comment"># 直方图二维，需要x和y两个坐标</span></span><br><span class="line">    x = []</span><br><span class="line">    y = []</span><br><span class="line">    <span class="keyword">for</span> k, v <span class="keyword">in</span> <span class="built_in">map</span>.most_common(<span class="number">15</span>):  <span class="comment"># 获取前15个最大数值</span></span><br><span class="line">        x.append(k)</span><br><span class="line">        y.append(v)</span><br><span class="line">    Xi = np.array(x)  <span class="comment"># 转成numpy的坐标</span></span><br><span class="line">    Yi = np.array(y)</span><br><span class="line"></span><br><span class="line">    width = <span class="number">0.6</span></span><br><span class="line">    plt.rcParams[<span class="string">&#x27;font.sans-serif&#x27;</span>] = [<span class="string">&#x27;SimHei&#x27;</span>]  <span class="comment"># 用来正常显示中文标签</span></span><br><span class="line">    plt.figure(figsize=(<span class="number">8</span>, <span class="number">6</span>))  <span class="comment"># 指定图像比例：8：6</span></span><br><span class="line">    plt.bar(Xi, Yi, width, color=<span class="string">&#x27;blue&#x27;</span>, label=<span class="string">&#x27;热门词频统计&#x27;</span>, alpha=<span class="number">0.8</span>, )</span><br><span class="line"></span><br><span class="line">    plt.xlabel(<span class="string">&quot;词频&quot;</span>)</span><br><span class="line">    plt.ylabel(<span class="string">&quot;次数&quot;</span>)</span><br><span class="line">    plt.savefig(<span class="string">&#x27;词频统计.png&#x27;</span>)</span><br><span class="line">    plt.show()</span><br><span class="line">    <span class="keyword">return</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">getciyun_most</span>(<span class="params"><span class="built_in">map</span></span>):  <span class="comment"># 获取词云</span></span><br><span class="line">    <span class="comment"># 一个存对应中文单词，一个存对应次数</span></span><br><span class="line">    x = []</span><br><span class="line">    y = []</span><br><span class="line">    <span class="keyword">for</span> k, v <span class="keyword">in</span> <span class="built_in">map</span>.most_common(<span class="number">300</span>):  <span class="comment"># 在前300个常用词语中</span></span><br><span class="line">        x.append(k)</span><br><span class="line">        y.append(v)</span><br><span class="line">    xi = x[<span class="number">0</span>:<span class="number">150</span>]  <span class="comment"># 截取前150个</span></span><br><span class="line">    xi = <span class="string">&#x27; &#x27;</span>.join(xi)  <span class="comment"># 以空格 ` `将其分割为固定格式(词云需要)</span></span><br><span class="line">    <span class="built_in">print</span>(xi)</span><br><span class="line">    <span class="comment"># backgroud_Image = plt.imread(&#x27;&#x27;)  # 如果需要个性化词云</span></span><br><span class="line">    <span class="comment"># 词云大小，字体等基本设置</span></span><br><span class="line">    wc = WordCloud(background_color=<span class="string">&quot;white&quot;</span>,</span><br><span class="line">                   width=<span class="number">1500</span>, height=<span class="number">1200</span>,</span><br><span class="line">                   <span class="comment"># min_font_size=40,</span></span><br><span class="line">                   <span class="comment"># mask=backgroud_Image,</span></span><br><span class="line">                   font_path=<span class="string">&quot;simhei.ttf&quot;</span>,</span><br><span class="line">                   max_font_size=<span class="number">150</span>,  <span class="comment"># 设置字体最大值</span></span><br><span class="line">                   random_state=<span class="number">50</span>,  <span class="comment"># 设置有多少种随机生成状态，即有多少种配色方案</span></span><br><span class="line">                   )  <span class="comment"># 字体这里有个坑，一定要设这个参数。否则会显示一堆小方框wc.font_path=&quot;simhei.ttf&quot;   # 黑体</span></span><br><span class="line">    <span class="comment"># wc.font_path=&quot;simhei.ttf&quot;</span></span><br><span class="line">    my_wordcloud = wc.generate(xi)  <span class="comment">#需要放入词云的单词 ，这里前150个单词</span></span><br><span class="line">    plt.imshow(my_wordcloud)  <span class="comment"># 展示</span></span><br><span class="line">    my_wordcloud.to_file(<span class="string">&quot;词云展示1.jpg&quot;</span>)  <span class="comment"># 保存</span></span><br><span class="line">    xi = <span class="string">&#x27; &#x27;</span>.join(x[<span class="number">150</span>:<span class="number">300</span>])  <span class="comment"># 再次获取后150个单词再保存一张词云</span></span><br><span class="line">    my_wordcloud = wc.generate(xi)</span><br><span class="line">    my_wordcloud.to_file(<span class="string">&quot;词云展示2.jpg&quot;</span>)</span><br><span class="line"></span><br><span class="line">    plt.axis(<span class="string">&quot;off&quot;</span>)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">anylaseword</span>(<span class="params">comment</span>):</span><br><span class="line">    <span class="comment"># 这个过滤词，有些词语没意义需要过滤掉</span></span><br><span class="line">    <span class="built_in">list</span> = [<span class="string">&#x27;这个&#x27;</span>, <span class="string">&#x27;一个&#x27;</span>, <span class="string">&#x27;不少&#x27;</span>, <span class="string">&#x27;起来&#x27;</span>, <span class="string">&#x27;没有&#x27;</span>, <span class="string">&#x27;就是&#x27;</span>, <span class="string">&#x27;不是&#x27;</span>, <span class="string">&#x27;那个&#x27;</span>, <span class="string">&#x27;还是&#x27;</span>, <span class="string">&#x27;剧情&#x27;</span>, <span class="string">&#x27;这样&#x27;</span>, <span class="string">&#x27;那样&#x27;</span>, <span class="string">&#x27;这种&#x27;</span>, <span class="string">&#x27;那种&#x27;</span>, <span class="string">&#x27;故事&#x27;</span>, <span class="string">&#x27;人物&#x27;</span>, <span class="string">&#x27;什么&#x27;</span>]</span><br><span class="line">    <span class="built_in">print</span>(<span class="built_in">list</span>)</span><br><span class="line">    commnetstr = <span class="string">&#x27;&#x27;</span>  <span class="comment"># 评论的字符串</span></span><br><span class="line">    c = Counter()  <span class="comment"># python一种数据集合，用来存储字典</span></span><br><span class="line">    index = <span class="number">0</span></span><br><span class="line">    <span class="keyword">for</span> va <span class="keyword">in</span> comment:</span><br><span class="line">        seg_list = jieba.cut(va[<span class="number">4</span>], cut_all=<span class="literal">False</span>)  <span class="comment">## jieba分词</span></span><br><span class="line">        index += <span class="number">1</span></span><br><span class="line">        <span class="keyword">for</span> x <span class="keyword">in</span> seg_list:</span><br><span class="line">            <span class="keyword">if</span> <span class="built_in">len</span>(x) &gt; <span class="number">1</span> <span class="keyword">and</span> x != <span class="string">&#x27;\r\n&#x27;</span>:  <span class="comment"># 不是单个字 并且不是特殊符号</span></span><br><span class="line">                <span class="keyword">try</span>:</span><br><span class="line">                    c[x] += <span class="number">1</span>  <span class="comment"># 这个单词的次数加一</span></span><br><span class="line">                <span class="keyword">except</span>:</span><br><span class="line">                    <span class="keyword">continue</span></span><br><span class="line">        commnetstr += va[<span class="number">4</span>]</span><br><span class="line">    <span class="keyword">for</span> (k, v) <span class="keyword">in</span> c.most_common():  <span class="comment"># 过滤掉次数小于5的单词</span></span><br><span class="line">        <span class="keyword">if</span> v &lt; <span class="number">5</span> <span class="keyword">or</span> k <span class="keyword">in</span> <span class="built_in">list</span>:</span><br><span class="line">            c.pop(k)</span><br><span class="line">            <span class="keyword">continue</span></span><br><span class="line">        <span class="comment"># print(k,v)</span></span><br><span class="line">    <span class="built_in">print</span>(<span class="built_in">len</span>(c), c)</span><br><span class="line">    getzhifang(c)  <span class="comment"># 用这个数据进行画直方图</span></span><br><span class="line">    getciyun_most(c)  <span class="comment"># 词云</span></span><br><span class="line">    <span class="comment"># print(commnetstr)</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">anylase</span>():</span><br><span class="line">    data = xlrd.open_workbook(<span class="string">&#x27;姜子牙动漫电影.xls&#x27;</span>)  <span class="comment"># 打开xls文件</span></span><br><span class="line">    table = data.sheets()[<span class="number">0</span>]  <span class="comment"># 打开第i张表</span></span><br><span class="line">    nrows = table.nrows  <span class="comment"># 若干列的一个集合</span></span><br><span class="line">    comment = []</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(nrows):</span><br><span class="line">        comment.append(table.row_values(i))  <span class="comment"># 将该列数据添加到元组中</span></span><br><span class="line">    <span class="comment"># print(comment)</span></span><br><span class="line">    anylasescore(comment)</span><br><span class="line">    anylaseword(comment)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    anylase()</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 <p><a
 target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s?__biz=MzU1MDQzNzYwOQ==&amp;mid=2247505401&amp;idx=2&amp;sn=41876d035dae06dfbb9e3b4c6226dd6c&amp;source=41#wechat_redirect">转载</a></p>
-
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://vesnt-git.gitee.io/vsent/2024/01/03/MySql/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="https://cdn.acwing.com/media/user/profile/photo/246040_lg_da22c80491.jpg">
-      <meta itemprop="name" content="chen">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Chen's Blog">
-      <meta itemprop="description" content="Just do it !!!">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | Chen's Blog">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/vsent/2024/01/03/MySql/" class="post-title-link" itemprop="url">MySql</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-
-      <time title="创建时间：2024-01-03 01:28:46" itemprop="dateCreated datePublished" datetime="2024-01-03T01:28:46+08:00">2024-01-03</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2024-01-13 01:03:49" itemprop="dateModified" datetime="2024-01-13T01:03:49+08:00">2024-01-13</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">分类于</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/vsent/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/" itemprop="url" rel="index"><span itemprop="name">数据库</span></a>
-        </span>
-    </span>
-
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h1 id="sql">SQL</h1>
-<h2 id="sql通用语法">SQL通用语法</h2>
-<ol type="1">
-<li>SQL语句可以单行或多行书写，以分号结尾(默认是以分号结尾的)</li>
-<li>SQL语句可以使用空格 / 缩进来增强语句的可读性</li>
-<li>MySQL数据库的SQL语句不区分大小写，关键字建议使用大写</li>
-<li>注释：
-<ol type="1">
-<li>单行注释：--注释内容 或 # 注释内容(MySQL特有)</li>
-<li>多行注释：/* 注释内容 */</li>
-</ol></li>
-</ol>
-<h2 id="sql分类">SQL分类</h2>
-<table>
-<colgroup>
-<col style="width: 4%" />
-<col style="width: 30%" />
-<col style="width: 64%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: center;">分类</th>
-<th style="text-align: center;">全称</th>
-<th style="text-align: center;">说明</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: center;">DDL</td>
-<td style="text-align: center;">Data Definition Language</td>
-<td
-style="text-align: center;">数据定义语言，用来定义数据库对象(数据库，表，字段)</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">DML</td>
-<td style="text-align: center;">Data Manipulation Language</td>
-<td
-style="text-align: center;">数据操作语言，用来对数据库表中的数据进行增删改</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">DQL</td>
-<td style="text-align: center;">Data Query Language</td>
-<td
-style="text-align: center;">数据查询语言，用来查询数据库中表的记录</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">DCL</td>
-<td style="text-align: center;">Data Control Language</td>
-<td
-style="text-align: center;">数据控制语言，用来创建数据库用户，控制数据库的访问权限</td>
-</tr>
-</tbody>
-</table>
-<h3 id="ddl---数据库操作">DDL - 数据库操作</h3>
-<h4 id="查询">查询</h4>
-<h5 id="查询所有数据库">查询所有数据库</h5>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SHOW</span> DATABASES;</span><br></pre></td></tr></table></figure>
-<h5 id="查询当前数据库">查询当前数据库</h5>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> DATABASE();</span><br></pre></td></tr></table></figure>
-<h4 id="创建">创建</h4>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">CREATE</span> DATABASE [IF <span class="keyword">NOT</span> <span class="keyword">EXISTS</span>] 数据库名 [<span class="keyword">DEFAULT</span> CHARSET 字符集] [<span class="keyword">COLLATE</span> 排序规则];</span><br></pre></td></tr></table></figure>
-<h4 id="删除">删除</h4>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">DROP</span> DATABASE[IF <span class="keyword">EXISTS</span>] 数据库名;</span><br></pre></td></tr></table></figure>
-<h4 id="使用">使用</h4>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">USE 数据库名;</span><br></pre></td></tr></table></figure>
-<h3 id="ddl---表操作---查询">DDL - 表操作 - 查询</h3>
-<h4 id="查询当前数据库所有表">查询当前数据库所有表</h4>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SHOW</span> TABLES;</span><br></pre></td></tr></table></figure>
-<h4 id="查询表结构">查询表结构</h4>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">DESC</span> 表名;</span><br></pre></td></tr></table></figure>
-<h4 id="查询指定表的建表语句">查询指定表的建表语句</h4>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SHOW</span> <span class="keyword">CREATE</span> <span class="keyword">TABLE</span> 表名;</span><br></pre></td></tr></table></figure>
-<h3 id="ddl---表操作---创建">DDL - 表操作 - 创建</h3>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">CREATE</span> <span class="keyword">TABLE</span> 表名(</span><br><span class="line">    字段<span class="number">1</span> 字段<span class="number">1</span>类型[COMMENT 字段<span class="number">1</span>注释],</span><br><span class="line">    字段<span class="number">2</span> 字段<span class="number">2</span>类型[COMMENT 字段<span class="number">2</span>注释],</span><br><span class="line">    字段<span class="number">3</span> 字段<span class="number">3</span>类型[COMMENT 字段<span class="number">3</span>注释],</span><br><span class="line">    ......</span><br><span class="line">    字段n 字段n类型[COMMENT 字段n注释]</span><br><span class="line">)[COMMENT 表注释];</span><br><span class="line"></span><br><span class="line">#注意：[...]为可选参数，最后一个字段后面没有逗号</span><br></pre></td></tr></table></figure>
-<h4 id="例1">例1：</h4>
-<table>
-<thead>
-<tr class="header">
-<th style="text-align: center;">ID</th>
-<th style="text-align: center;">name</th>
-<th style="text-align: center;">age</th>
-<th style="text-align: center;">gender</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: center;">1</td>
-<td style="text-align: center;">令狐冲</td>
-<td style="text-align: center;">28</td>
-<td style="text-align: center;">男</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">2</td>
-<td style="text-align: center;">风清扬</td>
-<td style="text-align: center;">68</td>
-<td style="text-align: center;">男</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">3</td>
-<td style="text-align: center;">东方不败</td>
-<td style="text-align: center;">32</td>
-<td style="text-align: center;">男</td>
-</tr>
-</tbody>
-</table>
-<h5 id="建表语句如图">建表语句如图：</h5>
-<p><img src='https://gitee.com/Vesnt-git/pic/raw/master/MySql/image-20230713132520905.png'></p>
-<h5 id="表结构如图">表结构如图：</h5>
-<p><img src='https://gitee.com/Vesnt-git/pic/raw/master/MySql/image-20230713132422340.png'></p>
-<h3 id="ddl---表操作---数据类型">DDL - 表操作 - 数据类型</h3>
-<p>MySQL中的数据类型有很多，主要分为三类：数值类型，字符串类型，日期时间类型。</p>
-<h4 id="数值类型">数值类型：</h4>
-<p><img src='https://gitee.com/Vesnt-git/pic/raw/master/MySql/image-20230713133034136.png'></p>
-<h4 id="字符串类型">字符串类型：</h4>
-<p><img src='https://gitee.com/Vesnt-git/pic/raw/master/MySql/image-20230713133636106.png'></p>
-<h4 id="时间类型">时间类型</h4>
-<p><img src='https://gitee.com/Vesnt-git/pic/raw/master/MySql/image-20230713134313612.png'></p>
-<h3 id="ddl---表操作---修改">DDL - 表操作 - 修改</h3>
-<h4 id="添加字段">添加字段</h4>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">ALTER</span> <span class="keyword">TABLE</span> 表名 <span class="keyword">ADD</span> 字段名 类型(长度) [COMMENT 注释] [约束];</span><br></pre></td></tr></table></figure>
-<h5 id="案例">案例：</h5>
-<p>为emp表增加一个新的字段 "nickname", 类型为varchar(20)</p>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">alter</span> <span class="keyword">table</span> emp <span class="keyword">add</span> nickname <span class="type">varchar</span>(<span class="number">20</span>) comment <span class="string">&#x27;昵称&#x27;</span>;</span><br></pre></td></tr></table></figure>
-<h4 id="修改数据类型">修改数据类型</h4>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">ALTER</span> <span class="keyword">TABLE</span> 表名 MODIFY 字段名 新的数据类型(长度);</span><br></pre></td></tr></table></figure>
-<h4 id="修改字段名和字段类型">修改字段名和字段类型</h4>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">ALTER</span> <span class="keyword">TABLE</span> 表名 CHANGE 旧的字段名 新的字段名 类型(长度)[COMMENT 注释] [约束];</span><br></pre></td></tr></table></figure>
-<h5 id="案例-1">案例：</h5>
-<p>将emp表的nickname字段修改为username，类型为varchar(30)</p>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">alter</span> <span class="keyword">table</span> emp change nickname username <span class="type">varchar</span>(<span class="number">30</span>) comment <span class="string">&#x27;用户名&#x27;</span>;</span><br></pre></td></tr></table></figure>
-<h4 id="删除字段">删除字段</h4>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">ALTER</span> <span class="keyword">TABLE</span> 表名 <span class="keyword">DROP</span> 字段名;</span><br></pre></td></tr></table></figure>
-<h5 id="案例-2">案例：</h5>
-<p>将emp中的字段username删除</p>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">alter</span> <span class="keyword">table</span> emp <span class="keyword">drop</span> username;</span><br></pre></td></tr></table></figure>
-<h4 id="修改表名">修改表名</h4>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">ALTER</span> <span class="keyword">TABLE</span> 表名 RENAME <span class="keyword">TO</span> 新表名;</span><br></pre></td></tr></table></figure>
-<h5 id="案例-3">案例：</h5>
-<p>将emp表的表名修改为employee；</p>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">alter</span> <span class="keyword">table</span> emp rename <span class="keyword">to</span> employee;</span><br></pre></td></tr></table></figure>
-<h3 id="ddl---表操作---删除">DDL - 表操作 - 删除</h3>
-<h4 id="删除表">删除表</h4>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">DROP</span> <span class="keyword">TABLE</span> [IF <span class="keyword">EXISTS</span>] 表名;</span><br></pre></td></tr></table></figure>
-<h4 id="删除指定表并重新创建该表">删除指定表，并重新创建该表</h4>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">TRUNCATE</span> <span class="keyword">TABLE</span> 表名;</span><br></pre></td></tr></table></figure>
-<p>注意：在删除表时，表中的全部数据也会被删除。</p>
-<h2 id="mysql的图形化界面">MySQL的图形化界面</h2>
-<h2 id="dml---介绍">DML - 介绍</h2>
-<p>DML英文全称是Data Manipulation
-Language(数据操作语言)，用来对数据库中表的数据记录进行增删改操作。</p>
-<h3 id="添加数据insert">添加数据(INSERT)</h3>
-<h5 id="给指定字段添加数据">给指定字段添加数据</h5>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">INSERT</span> <span class="keyword">INTO</span> 表名(字段<span class="number">1</span>, 字段<span class="number">2</span>, ....) <span class="keyword">VALUES</span>(值<span class="number">1</span>, 值<span class="number">2</span>, ....);</span><br></pre></td></tr></table></figure>
-<h5 id="给全部字段添加数据">给全部字段添加数据</h5>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">INSERT</span> <span class="keyword">INTO</span> 表名 <span class="keyword">VALUES</span>(值<span class="number">1</span>, 值<span class="number">2</span>);</span><br></pre></td></tr></table></figure>
-<h5 id="批量添加数据">批量添加数据</h5>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">INSERT</span> <span class="keyword">INTO</span> 表名(字段名<span class="number">1</span>, 字段名<span class="number">2.</span>...) <span class="keyword">VALUES</span>(值<span class="number">1</span>, 值<span class="number">2.</span>...), (值<span class="number">1</span>, 值<span class="number">2.</span>...), (值<span class="number">1</span>, 值<span class="number">2.</span>...);</span><br><span class="line"><span class="keyword">INSERT</span> <span class="keyword">INTO</span> 表名 <span class="keyword">VALUES</span>(值<span class="number">1</span>, 值<span class="number">2.</span>...) (值<span class="number">1</span>, 值<span class="number">2.</span>...) (值<span class="number">1</span>, 值<span class="number">2.</span>...);</span><br><span class="line"></span><br><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">注意：</span></span><br><span class="line"><span class="comment">    插入数据时，指定的字段顺序需要与值的顺序是一一对应的。</span></span><br><span class="line"><span class="comment">    字符串和日期型数据应该包含在引号中。</span></span><br><span class="line"><span class="comment">    插入数据大小，应该在字段规定范围内。</span></span><br><span class="line"><span class="comment">*/</span></span><br></pre></td></tr></table></figure>
-<h3 id="修改数据update">修改数据(UPDATE)</h3>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">UPDATE</span> 表名 <span class="keyword">SET</span> 字段名<span class="number">1</span> <span class="operator">=</span> 值<span class="number">1</span>, 字段名<span class="number">2</span> <span class="operator">=</span> 值<span class="number">2</span>,......[<span class="keyword">WHERE</span> 条件];</span><br><span class="line"></span><br><span class="line"># 注意：修改语句的条件可以有，也可以没有，如果没有条件，则会修改整张表的所有数据。</span><br></pre></td></tr></table></figure>
-<h3 id="删除数据delete">删除数据(DELETE)</h3>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">DELETE</span> <span class="keyword">FROM</span> 表名 [<span class="keyword">WHERE</span> 条件];</span><br><span class="line"></span><br><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">注意：</span></span><br><span class="line"><span class="comment">    DELETE 语句的条件可以有，也可以没有，如果没有条件，则会删除整张表的所有数据。</span></span><br><span class="line"><span class="comment">    DELETE 语句不能删除某个字段的值(可以使用UPDATE)。</span></span><br><span class="line"><span class="comment">*/</span></span><br></pre></td></tr></table></figure>
-<h2 id="dql---介绍">DQL - 介绍</h2>
-<p>DQL 英文全称是Data Query
-Language(数据查询语言)，数据查询语言，用来查询数据库中表的记录。</p>
-<p>查询关键字：<strong>SELECT</strong></p>
-<h3 id="dql---语法">DQL - 语法</h3>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span></span><br><span class="line">    字段列表</span><br><span class="line"><span class="keyword">FROM</span></span><br><span class="line">    表名列表</span><br><span class="line"><span class="keyword">WHERE</span></span><br><span class="line">    条件列表</span><br><span class="line"><span class="keyword">GROUP</span> <span class="keyword">BY</span></span><br><span class="line">    分组字段列表</span><br><span class="line"><span class="keyword">HAVING</span></span><br><span class="line">    分组后条件列表</span><br><span class="line"><span class="keyword">ORDER</span> <span class="keyword">BY</span></span><br><span class="line">    排序字段列表</span><br><span class="line">LIMIT</span><br><span class="line">    分页参数</span><br></pre></td></tr></table></figure>
-<h4 id="基本查询">基本查询</h4>
-<h5 id="查询多个字段">查询多个字段</h5>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> 字段<span class="number">1</span>，字段<span class="number">2</span>，字段<span class="number">3.</span>...<span class="keyword">FROM</span> 表名;</span><br><span class="line"><span class="keyword">SELECT</span> <span class="operator">*</span> <span class="keyword">FROM</span> 表名;</span><br></pre></td></tr></table></figure>
-<h5 id="设置别名">设置别名</h5>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> 字段<span class="number">1</span> [<span class="keyword">AS</span> 别名<span class="number">1</span>], 字段<span class="number">2</span>[<span class="keyword">AS</span> 别名<span class="number">2</span>] .... <span class="keyword">FROM</span> 表名;</span><br></pre></td></tr></table></figure>
-<h5 id="去除重复记录">去除重复记录</h5>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> <span class="keyword">DISTINCT</span> 字段列表 <span class="keyword">FROM</span> 表名;</span><br></pre></td></tr></table></figure>
-<h4 id="条件查询where">条件查询（WHERE）</h4>
-<h5 id="语法">语法</h5>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> 字段列表 <span class="keyword">FROM</span> 表名 <span class="keyword">WHERE</span> 条件列表;</span><br></pre></td></tr></table></figure>
-<p><img src='https://gitee.com/Vesnt-git/pic/raw/master/MySql/image-20230723112219166.png'></p>
-<h4
-id="聚合查询聚合函数count-max-min-avg-sum">聚合查询（聚合函数：count,
-max, min, avg, sum）</h4>
-<p><strong>语法</strong></p>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> 聚合函数(字段列表) <span class="keyword">FROM</span> 表名;</span><br><span class="line"></span><br><span class="line"><span class="keyword">SELECT</span> <span class="built_in">count</span>(<span class="operator">*</span>) <span class="keyword">from</span> emp; # 所有员工的数量</span><br><span class="line"></span><br><span class="line"><span class="keyword">SELECT</span> <span class="built_in">avg</span>(age) <span class="keyword">from</span> emp; # 所有员工的平均年龄</span><br><span class="line"></span><br><span class="line"><span class="keyword">SELECT</span> <span class="built_in">max</span>(age) <span class="keyword">from</span> emp; # 所有员工年龄的最大值</span><br><span class="line"></span><br><span class="line"><span class="keyword">SELECT</span> <span class="built_in">min</span>(age) <span class="keyword">from</span> emp; # 所有员工年龄的最小值</span><br><span class="line"></span><br><span class="line"><span class="keyword">SELECT</span> <span class="built_in">sum</span>(age) <span class="keyword">from</span> emp <span class="keyword">where</span> workadress <span class="operator">=</span> <span class="string">&#x27;西安&#x27;</span>; # 西安地区员工的年龄总和</span><br><span class="line"></span><br><span class="line">注意：所有的<span class="keyword">null</span>值不参与聚合函数运算</span><br></pre></td></tr></table></figure>
-<h4 id="分组查询group-by">分组查询（GROUP BY）</h4>
-<p><strong>语法</strong></p>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> 字段列表 <span class="keyword">FROM</span> 表名[<span class="keyword">WHERE</span> 条件] <span class="keyword">GROUP</span> <span class="keyword">BY</span> 分组字段名[<span class="keyword">HAVING</span> 分组后过滤条件]; # 两个条件</span><br><span class="line"><span class="keyword">where</span> 和 <span class="keyword">having</span> 的不同</span><br><span class="line"># 执行时机不同：<span class="keyword">where</span>是分组之前进行过滤，不满足<span class="keyword">where</span>条件，不参与分组; 而<span class="keyword">having</span>是分组之后对结果进行过滤</span><br><span class="line"># 判断时机不同：<span class="keyword">where</span>不能对聚合函数进行判断，而<span class="keyword">having</span>可以</span><br></pre></td></tr></table></figure>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"># 根据性别分组，统计不同性别男性员工和女性员工的数量</span><br><span class="line"><span class="keyword">select</span> gender, <span class="built_in">count</span>(<span class="operator">*</span>) <span class="keyword">from</span> emp <span class="keyword">group</span> <span class="keyword">by</span> gender;</span><br><span class="line"></span><br><span class="line"># 根据性别分组，统计男性员工和女性员工的平均年龄</span><br><span class="line"><span class="keyword">select</span> gender, <span class="built_in">avg</span>(age) <span class="keyword">from</span> emp <span class="keyword">group</span> <span class="keyword">by</span> gender;</span><br><span class="line"></span><br><span class="line"># 查询年龄小于<span class="number">45</span>的员工，并根据工作地址分组，获取员工数量大于等于<span class="number">3</span>的工作地址</span><br><span class="line"><span class="keyword">select</span> <span class="built_in">count</span>(<span class="operator">*</span>) <span class="keyword">from</span> emp <span class="keyword">where</span> age <span class="operator">&lt;</span> <span class="number">45</span> <span class="keyword">group</span> <span class="keyword">by</span> workaddress <span class="keyword">having</span> <span class="built_in">count</span>(<span class="operator">*</span>) <span class="operator">&gt;=</span> <span class="number">3</span>;</span><br><span class="line"></span><br><span class="line">注意：</span><br><span class="line"># 执行顺序：<span class="keyword">where</span> <span class="operator">&gt;</span> 聚合函数 <span class="operator">&gt;</span> <span class="keyword">having</span></span><br><span class="line"># 分组之后，查询的字段一般为聚合函数和分组字段，查询其他字段无任何意义</span><br></pre></td></tr></table></figure>
-<h4 id="排序查询order-by">排序查询（ORDER BY）</h4>
-<p><strong>语法</strong></p>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> 字段列表 <span class="keyword">FROM</span> 表名 <span class="keyword">ORDER</span> <span class="keyword">BY</span> 字段<span class="number">1</span> 排序方式, 字段<span class="number">2</span> 排序方式<span class="number">2</span>; # 支持多字段排序</span><br><span class="line"></span><br><span class="line">注意：</span><br><span class="line">如果是多字段排序，当第一个字段相同时，才会根据第二个字段排序</span><br></pre></td></tr></table></figure>
-<p><strong>排序方式</strong></p>
-<p>ASC：升序（默认值）</p>
-<p>DESC：降序</p>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"># 根据年龄按照升序排序, 降序</span><br><span class="line"><span class="keyword">select</span> <span class="operator">*</span> form emp <span class="keyword">order</span> <span class="keyword">by</span> age <span class="keyword">asc</span>;</span><br><span class="line"><span class="keyword">select</span> <span class="operator">*</span> form emp <span class="keyword">order</span> <span class="keyword">by</span> age <span class="keyword">desc</span>;</span><br><span class="line"></span><br><span class="line"># 根据入职时间，对员工进行降序排序</span><br><span class="line"><span class="keyword">select</span> <span class="operator">*</span> <span class="keyword">from</span> emp <span class="keyword">order</span> <span class="keyword">by</span> entrydate <span class="keyword">desc</span>;</span><br><span class="line"></span><br><span class="line"># 根据年龄对公司员工进行升序排序，年龄相同，在按照入职时间进行降序排序</span><br><span class="line"><span class="keyword">select</span> <span class="operator">*</span> <span class="keyword">from</span> emp <span class="keyword">order</span> <span class="keyword">by</span> age <span class="keyword">asc</span>, entrydate <span class="keyword">desc</span>;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<h4 id="分页查询limit">分页查询（LIMIT）</h4>
-<p><strong>语法</strong></p>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> 字段列表 <span class="keyword">FROM</span> 表名 LIMIT 起始索引, 查询记录数;</span><br><span class="line"></span><br><span class="line">注意：</span><br><span class="line"># 起始索引从 <span class="number">0</span> 开始，起始索引 <span class="operator">=</span> (查询页码 <span class="operator">-</span> <span class="number">1</span>) <span class="operator">*</span> 每页记录数</span><br><span class="line"># 分页查询是数据库的方言，不同数据库有不同的实现，Mysql中是LIMIT。</span><br><span class="line"># 如果查询的是第一业的数据，起始索引可以省略，直接写成LIMIT <span class="number">10</span>;</span><br></pre></td></tr></table></figure>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"># 查询第<span class="number">1</span>页员工数据，每页展示<span class="number">10</span>条记录</span><br><span class="line"><span class="keyword">select</span> <span class="operator">*</span> <span class="keyword">from</span> emp limit <span class="number">0</span>, <span class="number">10</span>;</span><br><span class="line"></span><br><span class="line"># 查询第二页员工的数据，每页展示<span class="number">10</span>条记录 <span class="comment">-------&gt; (页码 - 1) * 展示记录数</span></span><br><span class="line"><span class="keyword">select</span> <span class="operator">*</span> <span class="keyword">from</span> emp limit <span class="number">10</span>, <span class="number">10</span>;</span><br></pre></td></tr></table></figure>
-
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://vesnt-git.gitee.io/vsent/2024/01/03/2023%E5%B9%B4%E7%AC%AC%E5%8D%81%E5%9B%9B%E5%B1%8A%E8%93%9D%E6%A1%A5%E6%9D%AF%E5%A4%A7%E8%B5%9B%E8%BD%AF%E4%BB%B6%E7%B1%BB%E7%9C%81%E8%B5%9BPython%E5%A4%A7%E5%AD%A6B%E7%BB%84%E7%9C%9F%E9%A2%98/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="https://cdn.acwing.com/media/user/profile/photo/246040_lg_da22c80491.jpg">
-      <meta itemprop="name" content="chen">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Chen's Blog">
-      <meta itemprop="description" content="Just do it !!!">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | Chen's Blog">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/vsent/2024/01/03/2023%E5%B9%B4%E7%AC%AC%E5%8D%81%E5%9B%9B%E5%B1%8A%E8%93%9D%E6%A1%A5%E6%9D%AF%E5%A4%A7%E8%B5%9B%E8%BD%AF%E4%BB%B6%E7%B1%BB%E7%9C%81%E8%B5%9BPython%E5%A4%A7%E5%AD%A6B%E7%BB%84%E7%9C%9F%E9%A2%98/" class="post-title-link" itemprop="url">2023年第十四届蓝桥杯大赛软件类省赛Python大学B组真题</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-
-      <time title="创建时间：2024-01-03 00:03:35" itemprop="dateCreated datePublished" datetime="2024-01-03T00:03:35+08:00">2024-01-03</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2024-01-13 01:03:49" itemprop="dateModified" datetime="2024-01-13T01:03:49+08:00">2024-01-13</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">分类于</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/vsent/categories/%E9%A2%98%E8%A7%A3/" itemprop="url" rel="index"><span itemprop="name">题解</span></a>
-        </span>
-    </span>
-
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h2 id="c.-松散子序列">C. <a
-target="_blank" rel="noopener" href="https://www.dotcpp.com/oj/problem3181.html">松散子序列</a></h2>
-<p>思路：</p>
-<ul>
-<li><span class="math inline">\(dp\)</span> 状态分两种</li>
-<li><span class="math inline">\(dp[i][0]\)</span>
-表示不选当前这字符，当前的这个状态只能由上一个状态(选或不选)决定，即
-<span
-class="math inline">\(dp[i][0]=max(dp[i-1][0],dp[i-1][1])\)</span></li>
-<li><span class="math inline">\(dp[i][1]\)</span>
-表示选当前这个字符就不能选前一个字符，即 <span
-class="math inline">\(dp[i][1]=dp[i-1][0]+w_i\)</span></li>
-</ul>
-<p>注：<span class="math inline">\(w_i\)</span> 为当前这个字符的价值</p>
-<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span> </span></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> i64 = <span class="type">long</span> <span class="type">long</span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">signed</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    std::ios::<span class="built_in">sync_with_stdio</span>(<span class="literal">false</span>);</span><br><span class="line">    std::cin.<span class="built_in">tie</span>(<span class="literal">nullptr</span>);</span><br><span class="line">    </span><br><span class="line">    std::string s;</span><br><span class="line">    std::cin &gt;&gt; s;</span><br><span class="line"></span><br><span class="line">    <span class="type">int</span> n = s.<span class="built_in">size</span>();</span><br><span class="line"></span><br><span class="line">    <span class="function">std::vector <span class="title">dp</span><span class="params">(n, std::vector&lt;<span class="type">int</span>&gt;(<span class="number">2</span>))</span></span>;</span><br><span class="line">    dp[<span class="number">0</span>][<span class="number">1</span>] = s[<span class="number">0</span>] - <span class="string">&#x27;a&#x27;</span> + <span class="number">1</span>;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">1</span>; i &lt; n; i++) &#123;</span><br><span class="line">        dp[i][<span class="number">0</span>] = std::<span class="built_in">max</span>(dp[i - <span class="number">1</span>][<span class="number">0</span>], dp[i - <span class="number">1</span>][<span class="number">1</span>]);</span><br><span class="line">        dp[i][<span class="number">1</span>] = dp[i - <span class="number">1</span>][<span class="number">0</span>] + s[i] - <span class="string">&#x27;a&#x27;</span> + <span class="number">1</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    std::cout &lt;&lt; std::<span class="built_in">max</span>(dp[n - <span class="number">1</span>][<span class="number">0</span>], dp[n - <span class="number">1</span>][<span class="number">1</span>]) &lt;&lt; <span class="string">&quot;\n&quot;</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h2 id="d.-管道">D. <a
-target="_blank" rel="noopener" href="https://www.dotcpp.com/oj/problem3182.html">管道</a></h2>
-<p>思路：</p>
-<ul>
-<li>二分答案</li>
-<li>我们发现对于 <span class="math inline">\(L_i\)</span>
-有单调性，我们只需要判断每两个端点之间的距离是否可以互相抵达即可</li>
-<li>注意爆 <span class="math inline">\(int\)</span></li>
-</ul>
-<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span> </span></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> i64 = <span class="type">long</span> <span class="type">long</span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">signed</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    std::ios::<span class="built_in">sync_with_stdio</span>(<span class="literal">false</span>);</span><br><span class="line">    std::cin.<span class="built_in">tie</span>(<span class="literal">nullptr</span>);</span><br><span class="line">    </span><br><span class="line">    <span class="type">int</span> n, len;</span><br><span class="line">    std::cin &gt;&gt; n &gt;&gt; len;</span><br><span class="line"></span><br><span class="line">    std::vector&lt;std::array&lt;i64, 2&gt;&gt; <span class="built_in">a</span>(n);</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; n; i++) &#123;</span><br><span class="line">        std::cin &gt;&gt; a[i][<span class="number">0</span>] &gt;&gt; a[i][<span class="number">1</span>];</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    i64 l = <span class="number">0</span>, r = <span class="number">2E9</span>;</span><br><span class="line">    <span class="keyword">while</span> (l &lt; r) &#123;</span><br><span class="line">        i64 mid = l + r &gt;&gt; <span class="number">1</span>;</span><br><span class="line">        <span class="keyword">auto</span> check = [&amp;](i64 x) &#123;</span><br><span class="line">            std::vector&lt;std::array&lt;i64, <span class="number">2</span>&gt;&gt; seg;</span><br><span class="line">            <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; n; i++) &#123;</span><br><span class="line">                <span class="keyword">if</span> (x &gt;= a[i][<span class="number">1</span>]) &#123;</span><br><span class="line">                    i64 t = x - a[i][<span class="number">1</span>];</span><br><span class="line">                    seg.<span class="built_in">push_back</span>(&#123;a[i][<span class="number">0</span>] - t, a[i][<span class="number">0</span>] + t&#125;);</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">            std::<span class="built_in">sort</span>(seg.<span class="built_in">begin</span>(), seg.<span class="built_in">end</span>());</span><br><span class="line">            <span class="keyword">if</span> (seg.<span class="built_in">empty</span>() || seg[<span class="number">0</span>][<span class="number">0</span>] &gt; <span class="number">1</span>) &#123;</span><br><span class="line">                <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">            &#125;</span><br><span class="line">            i64 right = seg[<span class="number">0</span>][<span class="number">1</span>];</span><br><span class="line">            <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">1</span>; i &lt; seg.<span class="built_in">size</span>(); i++) &#123;</span><br><span class="line">                <span class="keyword">if</span> (right + <span class="number">1</span> &lt; seg[i][<span class="number">0</span>]) &#123;</span><br><span class="line">                    <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">                &#125;</span><br><span class="line">                right = std::<span class="built_in">max</span>(right, seg[i][<span class="number">1</span>]);</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">return</span> right &gt;= len;</span><br><span class="line">        &#125;;</span><br><span class="line">        <span class="keyword">if</span> (!<span class="built_in">check</span>(mid)) &#123;</span><br><span class="line">            l = mid + <span class="number">1</span>;</span><br><span class="line">        &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">            r = mid;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    std::cout &lt;&lt; l &lt;&lt; <span class="string">&quot;\n&quot;</span>;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
       
     </div>
