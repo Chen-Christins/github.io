@@ -34,8 +34,8 @@ http://christins.asia/about/index.html
 http://christins.asia/tags/index.html
 http://christins.asia/2024/01/03/MySql/
 http://christins.asia/2024/01/05/%E7%88%AC%E8%99%AB%E7%88%AC%E5%8F%96%E7%94%B5%E5%BD%B1%E6%8E%92%E8%A1%8C%E6%95%B0%E6%8D%AE/
-http://christins.asia/categories/index.html
 http://christins.asia/archives/index.html
+http://christins.asia/categories/index.html
 http://christins.asia/
 http://christins.asia/tags/%E8%93%9D%E6%A1%A5%E6%9D%AF/
 http://christins.asia/tags/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/
