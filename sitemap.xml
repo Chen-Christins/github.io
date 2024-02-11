@@ -326,7 +326,7 @@
   </url>
   
   <url>
-    <loc>https://vesnt-git.gitee.io/vsent/categories/index.html</loc>
+    <loc>https://vesnt-git.gitee.io/vsent/archives/index.html</loc>
     
     <lastmod>2024-01-12</lastmod>
     
@@ -335,7 +335,7 @@
   </url>
   
   <url>
-    <loc>https://vesnt-git.gitee.io/vsent/archives/index.html</loc>
+    <loc>https://vesnt-git.gitee.io/vsent/categories/index.html</loc>
     
     <lastmod>2024-01-12</lastmod>
     
@@ -360,14 +360,14 @@
   </url>
   
   <url>
-    <loc>https://vesnt-git.gitee.io/vsent/tags/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/</loc>
+    <loc>https://vesnt-git.gitee.io/vsent/tags/NowCoder/</loc>
     <lastmod>2024-02-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://vesnt-git.gitee.io/vsent/tags/NowCoder/</loc>
+    <loc>https://vesnt-git.gitee.io/vsent/tags/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/</loc>
     <lastmod>2024-02-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -402,14 +402,14 @@
   </url>
   
   <url>
-    <loc>https://vesnt-git.gitee.io/vsent/tags/%E6%8E%92%E5%BA%8F-sort/</loc>
+    <loc>https://vesnt-git.gitee.io/vsent/tags/%E6%95%B0%E8%AE%BA/</loc>
     <lastmod>2024-02-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://vesnt-git.gitee.io/vsent/tags/%E6%95%B0%E8%AE%BA/</loc>
+    <loc>https://vesnt-git.gitee.io/vsent/tags/%E6%8E%92%E5%BA%8F-sort/</loc>
     <lastmod>2024-02-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
