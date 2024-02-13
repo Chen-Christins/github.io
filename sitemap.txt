@@ -47,8 +47,8 @@ https://vesnt-git.gitee.io/vsent/tags/AcWing/
 https://vesnt-git.gitee.io/vsent/tags/AtCoder/
 https://vesnt-git.gitee.io/vsent/tags/Codeforces/
 https://vesnt-git.gitee.io/vsent/tags/MySql/
-https://vesnt-git.gitee.io/vsent/tags/%E6%8E%92%E5%BA%8F-sort/
 https://vesnt-git.gitee.io/vsent/tags/%E6%95%B0%E8%AE%BA/
+https://vesnt-git.gitee.io/vsent/tags/%E6%8E%92%E5%BA%8F-sort/
 https://vesnt-git.gitee.io/vsent/tags/%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB/
 https://vesnt-git.gitee.io/vsent/categories/%E9%A2%98%E8%A7%A3/
 https://vesnt-git.gitee.io/vsent/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/
