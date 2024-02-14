@@ -61,7 +61,6 @@
 
 <body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
   <div class="headband"></div>
-
   <main class="main">
     <div class="column">
       <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
@@ -191,7 +190,9 @@ Tour</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#
   </div>
 
         </div>
-      </div>
+      </div><div>
+  <canvas id="canvasDiyBlock" style="width:60%; margin-top:10px;">当前浏览器不支持canvas，请更换浏览器后再试</canvas><script src="/vsent/js/clock.js"></script>
+</div>
         <div class="back-to-top animated" role="button" aria-label="返回顶部">
           <i class="fa fa-arrow-up"></i>
           <span>0%</span>
@@ -199,7 +200,9 @@ Tour</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#
     </div>
 
     
+    
   </aside>
+  
 
 
     </div>
@@ -497,18 +500,12 @@ target="_blank" rel="noopener" href="https://atcoder.jp/contests/abc338/tasks/ab
 <script src="/vsent/js/third-party/math/mathjax.js"></script>
 
 
-{# 鼠标点击特效 #}
-{% if theme.cursor_effect == "fireworks" %}
-  <script async src="/js/cursor/fireworks.js"></script>
-{% elseif theme.cursor_effect == "explosion" %}
+
+
   <canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;" ></canvas>
   <script src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script>
   <script async src="/js/cursor/explosion.min.js"></script>
-{% elseif theme.cursor_effect == "love" %}
-  <script async src="/js/cursor/love.min.js"></script>
-{% elseif theme.cursor_effect == "text" %}
-  <script async src="/js/cursor/text.js"></script>
-{% endif %}
+
 
 </body>
 </html>
