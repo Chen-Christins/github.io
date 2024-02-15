@@ -2816,6 +2816,7 @@ header.header {
   color: #fc6423;
 }
 .sub-menu .menu-item-active:hover {
+  color: #00f;
   border-bottom-color: #fc6423;
 }
 .sidebar {
