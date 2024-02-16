@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://vesnt-git.gitee.io/vsent/2024/02/16/%E7%89%9B%E5%AE%A2%E5%B0%8F%E7%99%BD%E6%9C%88%E8%B5%9B87/</loc>
+    
+    <lastmod>2024-02-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://vesnt-git.gitee.io/vsent/2024/02/14/Codeforces-Round-925-Div-3/</loc>
     
     <lastmod>2024-02-15</lastmod>
@@ -353,7 +362,7 @@
   </url>
   
   <url>
-    <loc>https://vesnt-git.gitee.io/vsent/archives/index.html</loc>
+    <loc>https://vesnt-git.gitee.io/vsent/categories/index.html</loc>
     
     <lastmod>2024-01-12</lastmod>
     
@@ -362,7 +371,7 @@
   </url>
   
   <url>
-    <loc>https://vesnt-git.gitee.io/vsent/categories/index.html</loc>
+    <loc>https://vesnt-git.gitee.io/vsent/archives/index.html</loc>
     
     <lastmod>2024-01-12</lastmod>
     
@@ -429,14 +438,14 @@
   </url>
   
   <url>
-    <loc>https://vesnt-git.gitee.io/vsent/tags/%E6%8E%92%E5%BA%8F-sort/</loc>
+    <loc>https://vesnt-git.gitee.io/vsent/tags/%E6%95%B0%E8%AE%BA/</loc>
     <lastmod>2024-02-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://vesnt-git.gitee.io/vsent/tags/%E6%95%B0%E8%AE%BA/</loc>
+    <loc>https://vesnt-git.gitee.io/vsent/tags/%E6%8E%92%E5%BA%8F-sort/</loc>
     <lastmod>2024-02-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
