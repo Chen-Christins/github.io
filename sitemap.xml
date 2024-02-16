@@ -353,7 +353,7 @@
   </url>
   
   <url>
-    <loc>https://vesnt-git.gitee.io/vsent/categories/index.html</loc>
+    <loc>https://vesnt-git.gitee.io/vsent/archives/index.html</loc>
     
     <lastmod>2024-01-12</lastmod>
     
@@ -362,7 +362,7 @@
   </url>
   
   <url>
-    <loc>https://vesnt-git.gitee.io/vsent/archives/index.html</loc>
+    <loc>https://vesnt-git.gitee.io/vsent/categories/index.html</loc>
     
     <lastmod>2024-01-12</lastmod>
     
@@ -380,7 +380,7 @@
 
   
   <url>
-    <loc>https://vesnt-git.gitee.io/vsent/tags/%E8%93%9D%E6%A1%A5%E6%9D%AF/</loc>
+    <loc>https://vesnt-git.gitee.io/vsent/tags/NowCoder/</loc>
     <lastmod>2024-02-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -394,7 +394,7 @@
   </url>
   
   <url>
-    <loc>https://vesnt-git.gitee.io/vsent/tags/NowCoder/</loc>
+    <loc>https://vesnt-git.gitee.io/vsent/tags/%E8%93%9D%E6%A1%A5%E6%9D%AF/</loc>
     <lastmod>2024-02-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -408,14 +408,14 @@
   </url>
   
   <url>
-    <loc>https://vesnt-git.gitee.io/vsent/tags/AtCoder/</loc>
+    <loc>https://vesnt-git.gitee.io/vsent/tags/Codeforces/</loc>
     <lastmod>2024-02-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://vesnt-git.gitee.io/vsent/tags/Codeforces/</loc>
+    <loc>https://vesnt-git.gitee.io/vsent/tags/AtCoder/</loc>
     <lastmod>2024-02-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -429,14 +429,14 @@
   </url>
   
   <url>
-    <loc>https://vesnt-git.gitee.io/vsent/tags/%E6%95%B0%E8%AE%BA/</loc>
+    <loc>https://vesnt-git.gitee.io/vsent/tags/%E6%8E%92%E5%BA%8F-sort/</loc>
     <lastmod>2024-02-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://vesnt-git.gitee.io/vsent/tags/%E6%8E%92%E5%BA%8F-sort/</loc>
+    <loc>https://vesnt-git.gitee.io/vsent/tags/%E6%95%B0%E8%AE%BA/</loc>
     <lastmod>2024-02-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
