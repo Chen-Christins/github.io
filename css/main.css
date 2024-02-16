@@ -2991,9 +2991,6 @@ header.header {
 .sidebar {
   opacity: 0.98;
 }
-.header {
-  opacity: 0.98;
-}
 .header-inner {
   background: rgba(255,255,255,0.8);
 }
