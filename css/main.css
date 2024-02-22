@@ -2319,9 +2319,20 @@ pre code {
   list-style: none;
   margin: 0;
   padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 .category-all-page .category-list-item {
   margin: 5px 10px;
+  border-radius: 5px;
+  padding: 2px 14px;
+  background: #696969;
+  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.3);
+  min-width: 90px;
+  display: flex;
+  justify-content: center;
 }
 .category-all-page .category-list-count {
   color: #bbb;
