@@ -416,7 +416,7 @@
   </url>
   
   <url>
-    <loc>https://christins.online/categories/index.html</loc>
+    <loc>https://christins.online/archives/index.html</loc>
     
     <lastmod>2024-01-12</lastmod>
     
@@ -425,7 +425,7 @@
   </url>
   
   <url>
-    <loc>https://christins.online/archives/index.html</loc>
+    <loc>https://christins.online/categories/index.html</loc>
     
     <lastmod>2024-01-12</lastmod>
     
@@ -471,14 +471,14 @@
   </url>
   
   <url>
-    <loc>https://christins.online/tags/AtCoder/</loc>
+    <loc>https://christins.online/tags/Codeforces/</loc>
     <lastmod>2024-02-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://christins.online/tags/Codeforces/</loc>
+    <loc>https://christins.online/tags/AtCoder/</loc>
     <lastmod>2024-02-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

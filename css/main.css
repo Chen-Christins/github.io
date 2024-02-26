@@ -2334,14 +2334,19 @@ pre code {
   display: flex;
   justify-content: center;
 }
+.category-all-page .category-list-item .category-list-link {
+  font-weight: Bold;
+  padding: 0px 4px;
+  text-shadow: 1px 1px 0 rgba(0,0,0,0.1);
+}
 .category-all-page .category-list-count {
   color: #bbb;
 }
 .category-all-page .category-list-count::before {
-  content: ' (';
+  content: ' [';
 }
 .category-all-page .category-list-count::after {
-  content: ') ';
+  content: '] ';
 }
 .category-all-page .category-list-child {
   padding-left: 10px;
