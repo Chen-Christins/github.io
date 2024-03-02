@@ -443,7 +443,7 @@
   </url>
   
   <url>
-    <loc>https://christins.online/categories/index.html</loc>
+    <loc>https://christins.online/archives/index.html</loc>
     
     <lastmod>2024-01-12</lastmod>
     
@@ -452,7 +452,7 @@
   </url>
   
   <url>
-    <loc>https://christins.online/archives/index.html</loc>
+    <loc>https://christins.online/categories/index.html</loc>
     
     <lastmod>2024-01-12</lastmod>
     
@@ -498,13 +498,6 @@
   </url>
   
   <url>
-    <loc>https://christins.online/tags/AtCoder/</loc>
-    <lastmod>2024-03-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://christins.online/tags/Codeforces/</loc>
     <lastmod>2024-03-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -512,7 +505,21 @@
   </url>
   
   <url>
+    <loc>https://christins.online/tags/AtCoder/</loc>
+    <lastmod>2024-03-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://christins.online/tags/centos%E9%9D%A2%E6%9D%BF%E5%AE%89%E8%A3%85/</loc>
+    <lastmod>2024-03-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://christins.online/tags/git/</loc>
     <lastmod>2024-03-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -527,13 +534,6 @@
   
   <url>
     <loc>https://christins.online/tags/%E6%95%B0%E8%AE%BA/</loc>
-    <lastmod>2024-03-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://christins.online/tags/git/</loc>
     <lastmod>2024-03-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
