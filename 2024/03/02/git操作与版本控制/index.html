@@ -24,12 +24,12 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"christins.online","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.19.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":true,"style":"mac"},"fold":{"enable":true,"height":500},"bookmark":{"enable":true,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="简单介绍Git是一种分布式版本控制系统，用于跟踪文件和文件夹的变化。它允许多个开发者在同一项目上协作，并且可以在不同的计算机上工作而无需连接到中央服务器。 Git的基本原理如下： 本地仓库：每个Git仓库都包含完整的项目历史记录和文件版本。这意味着您可以在不连接到服务器的情况下执行几乎所有的操作。 快照：Git跟踪项目的快照，而不是文件的变化。每次提交都会创建一个新的快照，记录了当前文件状态的所有">
+    <meta name="description" content="简单介绍 Git是一种分布式版本控制系统，用于跟踪文件和文件夹的变化。它允许多个开发者在同一项目上协作，并且可以在不同的计算机上工作而无需连接到中央服务器。 Git的基本原理如下：  本地仓库：每个Git仓库都包含完整的项目历史记录和文件版本。这意味着您可以在不连接到服务器的情况下执行几乎所有的操作。 快照：Git跟踪项目的快照，而不是文件的变化。每次提交都会创建一个新的快照，记录了当前">
 <meta property="og:type" content="article">
 <meta property="og:title" content="git操作与版本控制">
 <meta property="og:url" content="https://christins.online/2024/03/02/git%E6%93%8D%E4%BD%9C%E4%B8%8E%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6/index.html">
 <meta property="og:site_name" content="Chen&#39;s Blog">
-<meta property="og:description" content="简单介绍Git是一种分布式版本控制系统，用于跟踪文件和文件夹的变化。它允许多个开发者在同一项目上协作，并且可以在不同的计算机上工作而无需连接到中央服务器。 Git的基本原理如下： 本地仓库：每个Git仓库都包含完整的项目历史记录和文件版本。这意味着您可以在不连接到服务器的情况下执行几乎所有的操作。 快照：Git跟踪项目的快照，而不是文件的变化。每次提交都会创建一个新的快照，记录了当前文件状态的所有">
+<meta property="og:description" content="简单介绍 Git是一种分布式版本控制系统，用于跟踪文件和文件夹的变化。它允许多个开发者在同一项目上协作，并且可以在不同的计算机上工作而无需连接到中央服务器。 Git的基本原理如下：  本地仓库：每个Git仓库都包含完整的项目历史记录和文件版本。这意味着您可以在不连接到服务器的情况下执行几乎所有的操作。 快照：Git跟踪项目的快照，而不是文件的变化。每次提交都会创建一个新的快照，记录了当前">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2024-03-02T03:13:03.000Z">
 <meta property="article:modified_time" content="2024-03-02T03:38:16.475Z">
@@ -94,7 +94,7 @@
 
 
 <nav class="site-nav">
-  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">13</span></a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类<span class="badge">5</span></a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">47</span></a></li><li class="menu-item menu-item-sitemap"><a href="/sitemap.xml" rel="section"><i class="fa fa-sitemap fa-fw"></i>站点地图</a></li>
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">13</span></a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类<span class="badge">5</span></a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">48</span></a></li><li class="menu-item menu-item-sitemap"><a href="/sitemap.xml" rel="section"><i class="fa fa-sitemap fa-fw"></i>站点地图</a></li>
       <li class="menu-item menu-item-search">
         <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
         </a>
@@ -145,7 +145,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AE%80%E5%8D%95%E4%BB%8B%E7%BB%8D"><span class="nav-text">简单介绍</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Git%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%8E%9F%E7%90%86%E5%A6%82%E4%B8%8B%EF%BC%9A"><span class="nav-text">Git的基本原理如下：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C"><span class="nav-text">基本操作</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%9D%E5%A7%8B%E5%8C%96Git"><span class="nav-text">初始化Git</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%BF%9B%E8%A1%8CGit%E9%85%8D%E7%BD%AE"><span class="nav-text">进行Git配置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%BF%9E%E6%8E%A5%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93"><span class="nav-text">连接远程仓库</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B0%86%E6%9C%AC%E5%9C%B0%E6%96%87%E4%BB%B6push%E5%88%B0%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93"><span class="nav-text">将本地文件push到远程仓库</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BB%8E%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93pull%E5%88%B0%E6%9C%AC%E5%9C%B0"><span class="nav-text">从远程仓库pull到本地</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#ssh%E5%85%AC%E9%92%A5%E7%9A%84%E4%BC%98%E7%82%B9"><span class="nav-text">ssh公钥的优点</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AE%80%E5%8D%95%E4%BB%8B%E7%BB%8D"><span class="nav-text">简单介绍</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#git%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%8E%9F%E7%90%86%E5%A6%82%E4%B8%8B"><span class="nav-text">Git的基本原理如下：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C"><span class="nav-text">基本操作</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%9D%E5%A7%8B%E5%8C%96git"><span class="nav-text">初始化Git</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%BF%9B%E8%A1%8Cgit%E9%85%8D%E7%BD%AE"><span class="nav-text">进行Git配置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%BF%9E%E6%8E%A5%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93"><span class="nav-text">连接远程仓库</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B0%86%E6%9C%AC%E5%9C%B0%E6%96%87%E4%BB%B6push%E5%88%B0%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93"><span class="nav-text">将本地文件push到远程仓库</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BB%8E%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93pull%E5%88%B0%E6%9C%AC%E5%9C%B0"><span class="nav-text">从远程仓库pull到本地</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#ssh%E5%85%AC%E9%92%A5%E7%9A%84%E4%BC%98%E7%82%B9"><span class="nav-text">ssh公钥的优点</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -160,7 +160,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">47</span>
+          <span class="site-state-item-count">48</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -311,8 +311,10 @@
     
     
     
-    <div class="post-body" itemprop="articleBody"><h2 id="简单介绍"><a href="#简单介绍" class="headerlink" title="简单介绍"></a>简单介绍</h2><p><code>Git</code>是一种分布式版本控制系统，用于跟踪文件和文件夹的变化。它允许多个开发者在同一项目上协作，并且可以在不同的计算机上工作而无需连接到中央服务器。</p>
-<h2 id="Git的基本原理如下："><a href="#Git的基本原理如下：" class="headerlink" title="Git的基本原理如下："></a><code>Git</code>的基本原理如下：</h2><ol>
+    <div class="post-body" itemprop="articleBody"><h2 id="简单介绍">简单介绍</h2>
+<p><code>Git</code>是一种分布式版本控制系统，用于跟踪文件和文件夹的变化。它允许多个开发者在同一项目上协作，并且可以在不同的计算机上工作而无需连接到中央服务器。</p>
+<h2 id="git的基本原理如下"><code>Git</code>的基本原理如下：</h2>
+<ol type="1">
 <li><strong>本地仓库：</strong>每个<code>Git</code>仓库都包含完整的项目历史记录和文件版本。这意味着您可以在不连接到服务器的情况下执行几乎所有的操作。</li>
 <li><strong>快照：</strong><code>Git</code>跟踪项目的快照，而不是文件的变化。每次提交都会创建一个新的快照，记录了当前文件状态的所有内容。</li>
 <li><strong>三个区域：</strong><code>Git</code>有三个主要的区域：工作目录、暂存区(<code>Index</code>)和本地仓库。工作目录是您实际操作的文件夹，暂存区是一个中间区域，用于准备提交的文件，而本地仓库是完整的项目历史记录。</li>
@@ -321,29 +323,40 @@
 <li><strong>远程仓库：</strong>除了本地仓库，<code>Git</code>还支持与远程仓库进行交互，这使得多个开发者可以共享代码并协作开发。远程仓库通常托管在服务提供商（如<code>GitHub</code>、<code>GitLab</code>等）上。</li>
 </ol>
 <p>借助<code>Git</code>，可以有效地使用它来管理项目版本。</p>
-<h2 id="基本操作"><a href="#基本操作" class="headerlink" title="基本操作"></a>基本操作</h2><ul>
+<h2 id="基本操作">基本操作</h2>
+<ul>
 <li>首先，我们要在本地生成<code>ssh key</code>，它分为一个公钥(<code>public key</code>)和一个密钥(<code>private key</code>)</li>
 </ul>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -b 4096 -C <span class="string">&quot;your_email@example.com&quot;</span></span><br></pre></td></tr></table></figure>
 <ul>
-<li><p>然后一直回车即可，然后我们根据生成的<code>ssh key</code>的路径，找到<code>id_rsa.pub</code>和<code>id_rsa</code>者两个文件，其中后缀为<code>.pub</code>就是公钥文件，另一个是密钥文件</p>
-</li>
-<li><p>然后我们连接仓库时，就需要将公钥放在仓库平台(<code>gitee</code>或<code>github</code>)上，这样才可以两端互联</p>
-</li>
+<li><p>然后一直回车即可，然后我们根据生成的<code>ssh key</code>的路径，找到<code>id_rsa.pub</code>和<code>id_rsa</code>者两个文件，其中后缀为<code>.pub</code>就是公钥文件，另一个是密钥文件</p></li>
+<li><p>然后我们连接仓库时，就需要将公钥放在仓库平台(<code>gitee</code>或<code>github</code>)上，这样才可以两端互联</p></li>
 </ul>
-<h3 id="初始化Git"><a href="#初始化Git" class="headerlink" title="初始化Git"></a>初始化<code>Git</code></h3><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git init</span><br></pre></td></tr></table></figure>
-<h3 id="进行Git配置"><a href="#进行Git配置" class="headerlink" title="进行Git配置"></a>进行<code>Git</code>配置</h3><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name <span class="string">&quot;yourname&quot;</span></span><br><span class="line">git config --global user.email <span class="string">&quot;your_email@youremail.com&quot;</span></span><br></pre></td></tr></table></figure>
-<h3 id="连接远程仓库"><a href="#连接远程仓库" class="headerlink" title="连接远程仓库"></a>连接远程仓库</h3><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git remote add origin git@yourplatform.com:xxx.git //ssh连接</span><br><span class="line">git remote add origin https:xxx.git  //https连接</span><br></pre></td></tr></table></figure>
-<h3 id="将本地文件push到远程仓库"><a href="#将本地文件push到远程仓库" class="headerlink" title="将本地文件push到远程仓库"></a>将本地文件<code>push</code>到远程仓库</h3><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">git status　　　　　　　　　//　查看工作目录的状态</span><br><span class="line"></span><br><span class="line">git add &lt;file&gt;　　　　　　　//　将文件添加到暂存区</span><br><span class="line"></span><br><span class="line">git commit -m <span class="string">&quot;commnet&quot;</span> 　//　提交更改,添加备注信息(此时将暂存区的信息提交到本地仓库)</span><br><span class="line"></span><br><span class="line">git push origin master 　　// 将本地仓库的文件push到远程仓库(若 push 不成功，可加 -f 进行强推操作)</span><br><span class="line"></span><br><span class="line">注: git add .             // 将所有文件加到暂存区</span><br></pre></td></tr></table></figure>
-<h3 id="从远程仓库pull到本地"><a href="#从远程仓库pull到本地" class="headerlink" title="从远程仓库pull到本地"></a>从远程仓库<code>pull</code>到本地</h3><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git pull origin master</span><br></pre></td></tr></table></figure>
-<h2 id="ssh公钥的优点"><a href="#ssh公钥的优点" class="headerlink" title="ssh公钥的优点"></a><code>ssh</code>公钥的优点</h2><p><code>SSH</code>公钥是一种加密技术，用于实现安全的远程登录和文件传输。它使用非对称加密算法，将用户的公钥保存在被访问的服务器上，而私钥则由用户自己保管。</p>
+<h3 id="初始化git">初始化<code>Git</code></h3>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git init</span><br></pre></td></tr></table></figure>
+<h3 id="进行git配置">进行<code>Git</code>配置</h3>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name <span class="string">&quot;yourname&quot;</span></span><br><span class="line">git config --global user.email <span class="string">&quot;your_email@youremail.com&quot;</span></span><br></pre></td></tr></table></figure>
+<h3 id="连接远程仓库">连接远程仓库</h3>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git remote add origin git@yourplatform.com:xxx.git //ssh连接</span><br><span class="line">git remote add origin https:xxx.git  //https连接</span><br></pre></td></tr></table></figure>
+<h3
+id="将本地文件push到远程仓库">将本地文件<code>push</code>到远程仓库</h3>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">git status　　　　　　　　　//　查看工作目录的状态</span><br><span class="line"></span><br><span class="line">git add &lt;file&gt;　　　　　　　//　将文件添加到暂存区</span><br><span class="line"></span><br><span class="line">git commit -m <span class="string">&quot;commnet&quot;</span> 　//　提交更改,添加备注信息(此时将暂存区的信息提交到本地仓库)</span><br><span class="line"></span><br><span class="line">git push origin master 　　// 将本地仓库的文件push到远程仓库(若 push 不成功，可加 -f 进行强推操作)</span><br><span class="line"></span><br><span class="line">注: git add .             // 将所有文件加到暂存区</span><br></pre></td></tr></table></figure>
+<h3 id="从远程仓库pull到本地">从远程仓库<code>pull</code>到本地</h3>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git pull origin master</span><br></pre></td></tr></table></figure>
+<h2 id="ssh公钥的优点"><code>ssh</code>公钥的优点</h2>
+<p><code>SSH</code>公钥是一种加密技术，用于实现安全的远程登录和文件传输。它使用非对称加密算法，将用户的公钥保存在被访问的服务器上，而私钥则由用户自己保管。</p>
 <p>当用户要进行远程登录或文件传输时，客户端会生成一对公钥和私钥，并将公钥发送给服务器。服务器将收到的公钥存储起来。当用户进行身份验证时，服务器会向客户端发送一个随机的挑战，并使用存储的公钥对其进行加密。用户收到挑战后，使用自己保管的私钥进行解密并返回结果给服务器。如果解密结果正确，身份验证就成功了。</p>
-<ol>
-<li><strong>安全性：</strong> 使用<code>SSH</code>公钥进行身份验证是一种安全的方式。公钥加密传输，私钥用于解密，这种加密机制比传统的密码认证更难以破解。即使公钥被截获，也无法直接用于访问受保护的系统。</li>
-<li><strong>无需密码：</strong> 一旦将公钥配置到目标主机上，就可以在不需要密码的情况下进行身份验证。这消除了密码管理的需求，同时也减少了密码被破解或泄露的风险。</li>
-<li><strong>易于管理：</strong> <code>SSH</code>公钥采用了非对称加密技术，因此它们具有很高的复杂性和随机性，使得它们几乎不可能被猜测或破解。这使得管理密钥对相对容易，而不必担心密钥的安全性。</li>
-<li><strong>适用于自动化：</strong> <code>SSH</code>公钥认证适用于自动化脚本和程序，因为它们可以在没有用户交互的情况下进行身份验证。这对于自动化任务和持续集成/持续部署(<code>CI/CD</code>)过程非常有用。</li>
-<li><strong>多因素身份验证：</strong> <code>SSH</code>公钥身份验证与其他身份验证方法（如密码）结合使用时，可以提供更高的安全性。这种多因素身份验证方法可以进一步增强系统的安全性。</li>
+<ol type="1">
+<li><strong>安全性：</strong>
+使用<code>SSH</code>公钥进行身份验证是一种安全的方式。公钥加密传输，私钥用于解密，这种加密机制比传统的密码认证更难以破解。即使公钥被截获，也无法直接用于访问受保护的系统。</li>
+<li><strong>无需密码：</strong>
+一旦将公钥配置到目标主机上，就可以在不需要密码的情况下进行身份验证。这消除了密码管理的需求，同时也减少了密码被破解或泄露的风险。</li>
+<li><strong>易于管理：</strong>
+<code>SSH</code>公钥采用了非对称加密技术，因此它们具有很高的复杂性和随机性，使得它们几乎不可能被猜测或破解。这使得管理密钥对相对容易，而不必担心密钥的安全性。</li>
+<li><strong>适用于自动化：</strong>
+<code>SSH</code>公钥认证适用于自动化脚本和程序，因为它们可以在没有用户交互的情况下进行身份验证。这对于自动化任务和持续集成/持续部署(<code>CI/CD</code>)过程非常有用。</li>
+<li><strong>多因素身份验证：</strong>
+<code>SSH</code>公钥身份验证与其他身份验证方法（如密码）结合使用时，可以提供更高的安全性。这种多因素身份验证方法可以进一步增强系统的安全性。</li>
 </ol>
 <p>为了确保SSH公钥的安全，用户应该妥善保管自己的私钥，并定期更新公钥，防止被恶意利用。此外，服务器管理员也应确保正确配置和管理公钥，避免安全漏洞的出现。</p>
 
@@ -385,6 +398,9 @@
                 </a>
             </div>
             <div class="post-nav-item">
+                <a href="/2024/03/03/AcWing-%E7%AC%AC145%E5%9C%BA%E5%91%A8%E8%B5%9B/" rel="next" title="AcWing 第145场周赛">
+                  AcWing 第145场周赛 <i class="fa fa-angle-right"></i>
+                </a>
             </div>
           </div>
     </footer>
@@ -427,7 +443,7 @@
       <i class="fa fa-coffee"></i>
     </span>
       <span>站点阅读时长 &asymp;</span>
-    <span title="站点阅读时长">2:57</span>
+    <span title="站点阅读时长">2:59</span>
   </span>
 </div>
 <div class="busuanzi-count">
