@@ -24,12 +24,12 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"christins.online","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.19.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":true,"style":"mac"},"fold":{"enable":true,"height":500},"bookmark":{"enable":true,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="环境介绍 由于Centos是国外的，所以有些时候我们下载速度很慢，所以我们需要将Centos进行换源，这里我使用的是Centos 7.6的服务器，接下来，我们进入正题 问题 安装时出现错误： 12sudo yum install wgetError: Nothing to do 大概率是yum源的问题，这里我们可以安装一下国内的163的源 解决方法： 操作如下： 1234567cd">
+    <meta name="description" content="环境介绍由于Centos是国外的，所以有些时候我们下载速度很慢，所以我们需要将Centos进行换源，这里我使用的是Centos 7.6的服务器，接下来，我们进入正题 问题安装时出现错误： 12sudo yum install wgetError: Nothing to do 大概率是yum源的问题，这里我们可以安装一下国内的163的源 解决方法：操作如下： 1234567cd &#x2F;etc&#x2F;yum.r">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Linux centos7.6 换源以及安装面板">
 <meta property="og:url" content="https://christins.online/2024/02/28/Linux-centos7-6-%E6%8D%A2%E6%BA%90%E4%BB%A5%E5%8F%8A%E5%AE%89%E8%A3%85%E9%9D%A2%E6%9D%BF/index.html">
-<meta property="og:site_name" content="Chen&#39;s Blog">
-<meta property="og:description" content="环境介绍 由于Centos是国外的，所以有些时候我们下载速度很慢，所以我们需要将Centos进行换源，这里我使用的是Centos 7.6的服务器，接下来，我们进入正题 问题 安装时出现错误： 12sudo yum install wgetError: Nothing to do 大概率是yum源的问题，这里我们可以安装一下国内的163的源 解决方法： 操作如下： 1234567cd">
+<meta property="og:site_name" content="个人学习总结">
+<meta property="og:description" content="环境介绍由于Centos是国外的，所以有些时候我们下载速度很慢，所以我们需要将Centos进行换源，这里我使用的是Centos 7.6的服务器，接下来，我们进入正题 问题安装时出现错误： 12sudo yum install wgetError: Nothing to do 大概率是yum源的问题，这里我们可以安装一下国内的163的源 解决方法：操作如下： 1234567cd &#x2F;etc&#x2F;yum.r">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2024-02-28T08:32:16.000Z">
 <meta property="article:modified_time" content="2024-02-28T08:50:02.490Z">
@@ -45,7 +45,7 @@
 <script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://christins.online/2024/02/28/Linux-centos7-6-%E6%8D%A2%E6%BA%90%E4%BB%A5%E5%8F%8A%E5%AE%89%E8%A3%85%E9%9D%A2%E6%9D%BF/","path":"2024/02/28/Linux-centos7-6-换源以及安装面板/","title":"Linux centos7.6 换源以及安装面板"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>Linux centos7.6 换源以及安装面板 | Chen's Blog</title>
+<title>Linux centos7.6 换源以及安装面板 | 个人学习总结</title>
   
 
 
@@ -77,11 +77,11 @@
 
     <a href="/" class="brand" rel="start">
       <i class="logo-line"></i>
-      <p class="site-title">Chen's Blog</p>
+      <p class="site-title">个人学习总结</p>
       <i class="logo-line"></i>
     </a>
       <p class="site-subtitle" itemprop="description">Programming is an art.</p>
-      <img class="custom-logo-image" src="/images/logo.png" alt="Chen's Blog">
+      <img class="custom-logo-image" src="/images/logo.png" alt="个人学习总结">
   </div>
 
   <div class="site-nav-right">
@@ -145,7 +145,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%8E%AF%E5%A2%83%E4%BB%8B%E7%BB%8D"><span class="nav-text">环境介绍</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%97%AE%E9%A2%98"><span class="nav-text">问题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95"><span class="nav-text">解决方法：</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%8E%AF%E5%A2%83%E4%BB%8B%E7%BB%8D"><span class="nav-text">环境介绍</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%97%AE%E9%A2%98"><span class="nav-text">问题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95%EF%BC%9A"><span class="nav-text">解决方法：</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -246,12 +246,12 @@
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Chen's Blog">
+      <meta itemprop="name" content="个人学习总结">
       <meta itemprop="description" content="爱你，老妈.">
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="Linux centos7.6 换源以及安装面板 | Chen's Blog">
+      <meta itemprop="name" content="Linux centos7.6 换源以及安装面板 | 个人学习总结">
       <meta itemprop="description" content="">
     </span>
       <header class="post-header">
@@ -311,14 +311,11 @@
     
     
     
-    <div class="post-body" itemprop="articleBody"><h2 id="环境介绍">环境介绍</h2>
-<p>由于<code>Centos</code>是国外的，所以有些时候我们下载速度很慢，所以我们需要将<code>Centos</code>进行换源，这里我使用的是<code>Centos 7.6</code>的服务器，接下来，我们进入正题</p>
-<h2 id="问题">问题</h2>
-<p>安装时出现错误：</p>
+    <div class="post-body" itemprop="articleBody"><h2 id="环境介绍"><a href="#环境介绍" class="headerlink" title="环境介绍"></a>环境介绍</h2><p>由于<code>Centos</code>是国外的，所以有些时候我们下载速度很慢，所以我们需要将<code>Centos</code>进行换源，这里我使用的是<code>Centos 7.6</code>的服务器，接下来，我们进入正题</p>
+<h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><p>安装时出现错误：</p>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo yum install wget</span><br><span class="line">Error: Nothing to <span class="keyword">do</span></span><br></pre></td></tr></table></figure>
 <p>大概率是<code>yum</code>源的问题，这里我们可以安装一下国内的<code>163</code>的源</p>
-<h2 id="解决方法">解决方法：</h2>
-<p>操作如下：</p>
+<h2 id="解决方法："><a href="#解决方法：" class="headerlink" title="解决方法："></a>解决方法：</h2><p>操作如下：</p>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> /etc/yum.repos.d</span><br><span class="line"></span><br><span class="line"><span class="built_in">mv</span> CentOS-Base.repo CentOS-Base.repo.backup</span><br><span class="line"></span><br><span class="line">wget http://mirrors.163.com/.help/CentOS6-Base-163.repo</span><br><span class="line"></span><br><span class="line"><span class="built_in">mv</span> CentOS6-Base-163.repo CentOS-Base.repo</span><br></pre></td></tr></table></figure>
 <p>最后清除一下缓存即可</p>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum clean all</span><br></pre></td></tr></table></figure>
