@@ -72,8 +72,8 @@ https://christins.online/tags/NowCoder/
 https://christins.online/tags/AcWing/
 https://christins.online/tags/AtCoder/
 https://christins.online/tags/Codeforces/
-https://christins.online/tags/centos%E9%9D%A2%E6%9D%BF%E5%AE%89%E8%A3%85/
 https://christins.online/tags/GPLT/
+https://christins.online/tags/centos%E9%9D%A2%E6%9D%BF%E5%AE%89%E8%A3%85/
 https://christins.online/tags/MySql/
 https://christins.online/tags/git/
 https://christins.online/tags/%E6%95%B0%E8%AE%BA/
